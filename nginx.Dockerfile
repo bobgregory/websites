@@ -2,6 +2,7 @@ FROM nginx:latest
 
 COPY ./snippets /etc/nginx/snippets/
 COPY ./fastcgi.conf /etc/nginx/
+COPY ./certs /certs/
 #RUN rm /etc/nginx/sites-enabled/*
 COPY ./sites /etc/nginx/sites-enabled
 #COPY ./nginx.conf /etc/nginx/conf.d
