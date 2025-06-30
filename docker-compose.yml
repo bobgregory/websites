@@ -1,7 +1,7 @@
 services:
   nginx-web:
     container_name: nginx-web
-    image: ghcr.io/hugothe5th/nginx:latest
+    image: ghcr.io/bobgregory/websites:latest
 #    build:
 #      tags:
 #         - "nginx-web:latest"
@@ -18,7 +18,7 @@ services:
       - /root/.docker/config.json:/root/.docker/config.json:ro
     environment:
         - SWARM=true
-        - INTERVAL=3600
+        - INTERVAL=300
         - CLEANUP=true
         - LOG_LEVEL=info
         - SELF_UPDATE=false
