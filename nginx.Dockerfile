@@ -1,12 +1,15 @@
 FROM nginx:latest
 
 COPY ./snippets /etc/nginx/snippets/
-
-COPY ./sites /etc/nginx/conf.d/sites/
-COPY ./nginx.conf /etc/nginx/nginx.conf
+COPY ./fastcgi.conf /etc/nginx/
+#RUN rm /etc/nginx/sites-enabled/*
+COPY ./sites /etc/nginx/sites-enabled
+#COPY ./nginx.conf /etc/nginx/conf.d
 
 RUN usermod -u 1000 www-data \
     && groupmod -g 1000 www-data
+
+#RUN rm /etc/nginx/conf.d/default.conf
 
 COPY ./websites /var/www/
 
