@@ -2,7 +2,7 @@ FROM nginx:latest
 
 COPY ./snippets /etc/nginx/snippets/
 
-COPY ./sites /etc/nginx/conf.d/
+COPY ./sites /etc/nginx/conf.d/sites/
 COPY ./nginx.conf /etc/nginx/nginx.conf
 
 RUN usermod -u 1000 www-data \
