@@ -1,0 +1,26 @@
+services:
+  nginx-web:
+    container_name: nginx-web
+    image: ghcr.io/hugothe5th/nginx:latest
+#    build:
+#      tags:
+#         - "nginx-web:latest"
+#      context: ./
+#      network: host
+    restart: unless-stopped
+    deploy:
+      labels:
+        com.ouroboros.enable: "true"
+  updater:
+    image: gmt2001/ouroboros:latest
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /root/.docker/config.json:/root/.docker/config.json:ro
+    environment:
+        - SWARM=true
+        - INTERVAL=3600
+        - CLEANUP=true
+        - LOG_LEVEL=info
+        - SELF_UPDATE=false
+        - LABEL_ENABLE=true
+        - LABELS_ONLY=true
