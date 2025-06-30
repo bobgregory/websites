@@ -1,0 +1,122 @@
+body {
+  background-color: #008080;
+  margin: 0px;
+  font-family: Verdana;
+}
+
+
+.nav{
+  opacity: 0;
+  animation: fadeInAnimation 0.3s ease 0.3s;
+  animation-fill-mode: forwards;
+  position: sticky;
+  width: 99%;
+  top: 0px;
+  right: 10px;
+  z-index: 50;
+  overflow: hidden;
+  background-color: #008080;
+}
+
+.nav a {
+  position: relative;
+  transition-duration: 0.3s;
+  float: left;
+  color: white;
+  max-width: 120px;
+  min-width: 120px;
+  min-height: 30px;
+  max-height: 30px;
+  font-size: small;
+  text-align: center;
+  padding: 12px 0.3%;
+  border: 3px white solid;
+  margin-right: 0.6%;
+  margin-left: 0.6%;
+  margin-top: 0.6%;
+}
+
+.nav a:hover{
+  transform: scale(1.05);
+  background-color: white;
+  color: #008080;
+  transition-duration: 0.3s;
+}
+
+.nav a.select{
+  background-color: white;
+  color: #008080;
+}
+
+.nav a.select:hover{
+  background-color: white;
+  color: #008080;
+}
+
+.header{
+  color: white;
+  opacity: 0;
+  animation: fadeInAnimation 0.8s ease 0.8s;
+  animation-fill-mode: forwards;
+  padding: 0px 0px 0px 1%;
+  position: static;
+  z-index: 2;
+  font-size: x-large;
+  margin-left: 8%;
+  margin-top: 4%;
+  width: 60%;
+}
+
+.text{
+  color: white;
+  opacity: 0;
+  animation: fadeInAnimation 1.3s ease 1.3s;
+  animation-fill-mode: forwards;
+  padding: 0px 0px 0px 1%;
+  position: static;
+  z-index: 2;
+  margin-top: 1px;
+  margin-left: 8%;
+  margin-bottom: 5%;
+  margin-right:20%;
+}
+
+.text .inline-image{
+  transition-duration: 0.3s;
+  opacity: 0;
+  animation: fadeInAnimation 1.3s ease 1.3s;
+  animation-fill-mode: forwards;
+  float: inline-start;
+  padding: 2px 15px 0px 0px;
+  width: 25%;
+  display: inline;
+  min-width: 160px;
+  max-width: 350px;
+}
+
+.form-container{
+  opacity: 0;
+  animation: fadeInAnimation 1.8s ease 1.8s;
+  animation-fill-mode: forwards;
+  margin-left: 9%;
+  padding: 5px;
+  width: 30%;
+  min-width: 450px;
+  text-align: left;
+  color: white;
+  background-color: #008080;
+}
+
+.form-container input {
+  margin-bottom: 5px;
+}
+
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}

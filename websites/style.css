@@ -1,0 +1,118 @@
+body {
+    margin: 0px;
+    font-family: Verdana;
+    background-color: #008080;
+}
+
+div{border: transparent 1px solid}
+
+.boids{
+    position: fixed;
+    top: 0px;
+    z-index: -1;
+}
+
+.icon-box{
+    padding: 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    animation: fadeInAnimation 0.3s ease 0.3s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+
+.icon-box .icon{
+    height: 150px;
+    float: left;
+}
+
+.header{
+    color: #ffffff;
+    opacity: 0;
+    animation: fadeInAnimation 0.3s ease 0.3s;
+    animation-fill-mode: forwards;
+    padding: 0px 0px 0px 1%;
+    position: static;
+    z-index: 2;
+    font-size: xx-large;
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.small-text{
+    color: #ffffff;
+    opacity: 0;
+    animation: fadeInAnimation 0.8s ease 0.8s;
+    animation-fill-mode: forwards;
+    padding: 0px 0px 0px 1%;
+    position: static;
+    z-index: 2;
+    margin-top: 1px;
+    margin-left: 8%;
+}
+
+.nav{
+    opacity: 0;
+    animation: fadeInAnimation 1.3s ease 1.3s;
+    animation-fill-mode: forwards;
+    padding: 0px 0px 0px 1%;
+    position: static;
+    z-index: 2;
+    margin-top: 1px;
+    margin-left: 8%;
+    overflow: hidden;
+
+}
+
+.nav a {
+    transition-duration: 0.3s;
+    float: left;
+    color: #ffffff;
+    max-width: 128px;
+    min-width: 128px;
+    min-height: 45px;
+    text-align: center;
+    padding: 12px 0.3%;
+    border: 3px #ffffff solid;
+    margin-right: 1.2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    left: 0px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover{
+    transform: scale(1.1);
+    color: #008080;
+    background-color: #ffffff;
+    transition-duration: 0.2s;
+}
+
+.credits-box{
+    opacity: 0;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: #ffffff;
+    animation: fadeInAnimation 2s ease 2s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+.credits{
+    float: right;
+    text-align: right;
+    font-size: 10px;
+}
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
