@@ -1,23 +1,20 @@
 services:
-  nginx-web:
-    container_name: nginx-web
+  git-web:
+    container_name: git-web
     image: ghcr.io/bobgregory/websites:latest
-#    build:
-#      tags:
-#         - "nginx-web:latest"
-#      context: ./
-#      network: host
     restart: unless-stopped
     deploy:
       labels:
         com.ouroboros.enable: "true"
+
   updater:
     image: gmt2001/ouroboros:latest
+    container_name: updater
+    restart: unless-stopped
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - /root/.docker/config.json:/root/.docker/config.json:ro
     environment:
-        - SWARM=true
         - INTERVAL=300
         - CLEANUP=true
         - LOG_LEVEL=info
