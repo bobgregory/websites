@@ -76,9 +76,14 @@ for future use*/
     text-decoration: none;
     font-size: 26px;
 }
-
+/*# is for ids*/
 #cat {
     height: 100px;
+}
+
+#cum {
+    width:  150px;
+    height: 20px;
 }
 
 @keyframes fadeInAnimation {
