@@ -77,6 +77,10 @@ for future use*/
     font-size: 26px;
 }
 
+#cat {
+    height: 100px;
+}
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
