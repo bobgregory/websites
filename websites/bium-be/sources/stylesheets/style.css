@@ -57,6 +57,20 @@ body {
     font-size: 26px;
 }
 
+a:link {
+  color: pink;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(255, 10, 149);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(255, 10, 149);
+  text-decoration: none;
+}
+
+
 /* css for elements ---------------------------------------------------*/
 
 pre{
