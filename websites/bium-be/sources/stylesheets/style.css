@@ -29,6 +29,20 @@ body {
     
 }
 
+a:link {
+  color: pink;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(255, 10, 149);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(255, 10, 149);
+  text-decoration: none;
+}
+
+
 .nav{
     opacity: 0;
     animation: fadeInAnimation 0.3s ease 0.3s;
@@ -57,18 +71,6 @@ body {
     font-size: 26px;
 }
 
-a:link {
-  color: pink;
-  text-decoration: none;
-}
-a:visited {
-  color: rgb(255, 10, 149);
-  text-decoration: none;
-}
-a:hover {
-  color: rgb(255, 10, 149);
-  text-decoration: none;
-}
 
 
 /* css for elements ---------------------------------------------------*/
@@ -91,21 +93,6 @@ this for any poetry additions (or fish teir lists rn).
 currently styled the same as small-text but here
 for future use*/
 
-
-/*#s for id's ------------------------------------------------------------*/
-#cat {
-    height: 100px;
-    float:  right;
-}
-
-#cum {
-    width:  150px;
-    height: 20px;
-}
-
-#cardnavigation {
-    width:  616px;
-}
 
 @keyframes fadeInAnimation {
     0% {
