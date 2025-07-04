@@ -1,4 +1,8 @@
 body{
     background-color: #4f69ca;
-    background-image: url(sources/images/whiteboard.png);
+    background-image: url("sources/images/whiteboard.png");
+}
+
+#lpsheader {
+    width: 100%;
 }
