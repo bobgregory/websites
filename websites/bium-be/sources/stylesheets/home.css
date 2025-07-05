@@ -1,3 +1,14 @@
+body {
+    background-color: #f3e7d8;
+    opacity: 0.5;
+    background-image:  linear-gradient(#fff9ff 1px, transparent 1px), linear-gradient(to right, #fff9ff 1px, #f3e7d8 1px);
+    background-size: 20px 20px;
+}
+
+
+
+
+
 
 #cat {
     height: 100px;
