@@ -14,7 +14,7 @@ header img{
 article{
     text-align: center;
     padding-top: 60px;
-    padding-left: 60px;
+    padding-bottom: 60px;
     background: url("../../sources/images/lpstransparentwb.png") no-repeat;
     background-size: contain;
     margin: auto;
