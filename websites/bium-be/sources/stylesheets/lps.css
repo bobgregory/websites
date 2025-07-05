@@ -7,6 +7,18 @@ header img{
     width: 100vw;
 }
 
+
+
+
+
 article{
-    background-image: url("../../sources/images/transparentwb.png");
-}
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 60px;
+    background: url("../../sources/images/lpstransparentwb.png") no-repeat;
+    background-size: contain;
+    margin: auto;
+    height: 441px;
+    width:  714px;
+    }
+
