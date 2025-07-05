@@ -33,6 +33,32 @@ body {
     
 }
 
+.topnav {  /*styles the bg of the nav bar*/
+  overflow: hidden;
+  background-color: #333;
+  margin-left: 8%;
+  margin-top: 7%;
+  margin-left:8%;  /* why does this not add margin to the left?*/
+}
+
+.topnav a { /*syles the links in the nav bar*/
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover { /* makes colours change when hover over*/
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+
+
 .nav{
     opacity: 0;
     animation: fadeInAnimation 0.3s ease 0.3s;
