@@ -1,3 +1,4 @@
+
 body{
     background-color: #4f69ca;
     
@@ -7,11 +8,12 @@ header img{
     width: 100vw;
 }
 
+footer{
+    text-align: center;
+}
 
 
-
-
-article{
+.whiteboard{
     text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -21,4 +23,36 @@ article{
     height: 441px;
     width:  714px;
     }
+
+
+.wbheader{
+    color: #f8759f;
+    font-family: fantasy; /*i want to change this to the LPS font*/
+    font-size: x-large;
+    padding-bottom: 30px;
+}
+
+.wbtext{
+    color: #38b3d5;
+    font-family: fantasy; /*i want to change this to the LPS font*/
+    font-size: large;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
