@@ -8,9 +8,16 @@ header img{
     width: 100vw;
 }
 
-footer{
-    text-align: center;
+footer img{
+    width: 100vw;
 }
+
+.bottom-left {
+  position: absolute;
+  bottom: 0px; /*next job is getting this to work */
+  left: 0px;
+}
+
 
 
 .whiteboard{
