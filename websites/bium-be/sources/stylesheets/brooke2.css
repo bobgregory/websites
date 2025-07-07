@@ -1,47 +1,77 @@
-#carouse2__slide1 {
+/*first row -------------------------------------------------------*/
+
+#carousel__slide3, #carousel__slide2, #carousel__slide1, #carousel__slide4 {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
-  background-image: url("../../sources/images/lps/bag.jpg");
   background-position: center;
   background-size: contain;
-    background-repeat: no-repeat;
-  
+  background-repeat: no-repeat;
   counter-increment: item;
 }
 
-#carouse2__slide2 {
-  position: relative;
-  flex: 0 0 100%;
-  width: 100%;
+#carousel__slide1 {
+  background-image: url("../../sources/images/lps/bag.jpg");
+}
+#carousel__slide2 {
   background-image: url("../../sources/images/lps/lpsplush1.png");
-  background-position: center;
-  background-size: contain;
-    background-repeat: no-repeat;
-  
-  counter-increment: item;  
+}
+#carousel__slide3 {
+  background-image: url("../../sources/images/lps/lpsplush2.png");
+}
+#carousel__slide4 {
+  background-image: url("../../sources/images/lps/lpsplush3.png");
 }
 
-#carouse2__slide3 {
+/*second row -------------------------------------------------------*/
+
+
+#carouse2__slide3, #carouse2__slide2, #carouse2__slide1, #carouse2__slide4 {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
-  background-image: url("../../sources/images/lps/lpsplush2.png");
   background-position: center;
   background-size: contain;
-    background-repeat: no-repeat;
-  
-  counter-increment: item;  
+  background-repeat: no-repeat;
+  counter-increment: item;
+}
+
+#carouse2__slide1 {
+  background-image: url("../../sources/images/lps/bag.jpg");
+}
+#carouse2__slide2 {
+  background-image: url("../../sources/images/lps/lpsplush1.png");
+}
+#carouse2__slide3 {
+  background-image: url("../../sources/images/lps/lpsplush2.png");
 }
 #carouse2__slide4 {
+  background-image: url("../../sources/images/lps/lpsplush3.png");  
+}
+
+/*third row -------------------------------------------------------*/
+
+
+#carouse3__slide3, #carouse3__slide2, #carouse3__slide1, #carouse3__slide4 {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
-  background-image: url("../../sources/images/lps/lpsplush3.png");
   background-position: center;
   background-size: contain;
-    background-repeat: no-repeat;
-  
-  counter-increment: item;  
+  background-repeat: no-repeat;
+  counter-increment: item;
 }
-/*add more here and change the background to photos*/
+
+#carouse3__slide1 {
+  background-image: url("../../sources/images/lps/bag.jpg");
+}
+#carouse3__slide2 {
+  background-image: url("../../sources/images/lps/lpsplush1.png");
+}
+#carouse3__slide3 {
+  background-image: url("../../sources/images/lps/lpsplush2.png");
+}
+#carouse3__slide4 {
+  background-image: url("../../sources/images/lps/lpsplush3.png");
+}
+

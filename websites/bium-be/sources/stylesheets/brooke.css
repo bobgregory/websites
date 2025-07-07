@@ -1,5 +1,6 @@
-body {
-  max-width: 700px;
+
+.dressup {
+  max-width: 400px;
   margin: auto;
   padding: 60px;
 }
@@ -9,7 +10,6 @@ body {
   scrollbar-color: transparent transparent; /* thumb and track color */
   scrollbar-width: 100px;
 }
-
 
 * {
   -ms-overflow-style: none; /* hides the scroll bar*/
@@ -23,7 +23,7 @@ ol, li {
 
 .carousel {      /*main box everything lives in*/
   position: relative;
-  padding-top: 75%;  /*using this to change the size 
+  padding-top: 75%;  /*using this to change the shape 
                         of the box (75% makes rectangle*/
 }
 
@@ -40,55 +40,6 @@ ol, li {
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;  /*scroll wheel snaps horisontaly*/
 }
-
-#carousel__slide1 {
-  position: relative;
-  flex: 0 0 100%;
-  width: 100%;
-  background-image: url("../../sources/images/lps/bag.jpg");
-  background-position: center;
-  background-size: contain;
-    background-repeat: no-repeat;
-  
-  counter-increment: item;
-}
-
-#carousel__slide2 {
-  position: relative;
-  flex: 0 0 100%;
-  width: 100%;
-  background-image: url("../../sources/images/lps/lpsplush1.png");
-  background-position: center;
-  background-size: contain;
-    background-repeat: no-repeat;
-  
-  counter-increment: item;  
-}
-
-#carousel__slide3 {
-  position: relative;
-  flex: 0 0 100%;
-  width: 100%;
-  background-image: url("../../sources/images/lps/lpsplush2.png");
-  background-position: center;
-  background-size: contain;
-    background-repeat: no-repeat;
-  
-  counter-increment: item;  
-}
-#carousel__slide4 {
-  position: relative;
-  flex: 0 0 100%;
-  width: 100%;
-  background-image: url("../../sources/images/lps/lpsplush3.png");
-  background-position: center;
-  background-size: contain;
-    background-repeat: no-repeat;
-  
-  counter-increment: item;  
-}
-/*add more here and change the background to photos*/
-
 
 .carousel__slide:before {
   content: counter(item);      /* sets Sets the content as a counter

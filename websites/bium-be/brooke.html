@@ -20,120 +20,172 @@
 
     <script src="sources/script/script.js"></script>
   </head>
-  <body>
-    <br>
-    <br>
-    <br>
-    <br>
+  <body> 
+    <div class= dressup>
+      <br>
+      <br>
+      <br>
+      <br>
+      <!--carousel 1-->
+      <section class="carousel">
+          <ol class="carousel__viewport"> <!-- ordered list containing the slides, with a snapper which snaps to the other slides-->
+              <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                  <div class="carousel__snapper">
+                  <a href="#carousel__slide4" class="carousel__prev"> Go to previous slide</a>
+                  <a href="#carousel__slide2" class="carousel__next"> Go to next slide</a>
+                  </div>
+              </li>
 
-    <section class="carousel">
-        <ol class="carousel__viewport"> <!-- ordered list containing the slides, with a snapper which snaps to the other slides-->
-            <li id="carousel__slide1" tabindex="0" class="carousel__slide">
-                <div class="carousel__snapper">
-                <a href="#carousel__slide4" class="carousel__prev"> Go to previous slide</a>
-                <a href="#carousel__slide2" class="carousel__next"> Go to next slide</a>
-                </div>
-            </li>
+              <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                  <div class="carousel__snapper">
+                  <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+                  <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+                  </div>
+              </li>
+              <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+                  <div class="carousel__snapper">
+                  <a href="#carousel__slide2" class="carousel__prev"> Go to previous slide</a>
+                  <a href="#carousel__slide4" class="carousel__next"> Go to next slide</a>
+                  </div>
+              </li>
 
-            <li id="carousel__slide2" tabindex="0" class="carousel__slide">
-                <div class="carousel__snapper">
-                <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
-                <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
-                </div>
-            </li>
-            <li id="carousel__slide3" tabindex="0" class="carousel__slide">
-                <div class="carousel__snapper">
-                <a href="#carousel__slide2" class="carousel__prev"> Go to previous slide</a>
-                <a href="#carousel__slide4" class="carousel__next"> Go to next slide</a>
-                </div>
-            </li>
-
-            <li id="carousel__slide4" tabindex="0" class="carousel__slide">
-                <div class="carousel__snapper">
-                <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
-                <a href="#carousel__slide1" class="carousel__next">Go to next slide</a>
-                </div>
-            </li>
-        </ol>
-
-
-        <aside class="carousel__navigation">
-            <ol class="carousel__navigation-list">
-                <li class="carousel__navigation-item">
-                    <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
-                </li>
-                <li class="carousel__navigation-item">
-                    <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
-                </li>
-                <li class="carousel__navigation-item">
-                    <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
-                </li>
-                <li class="carousel__navigation-item">
-                    <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
-                </li>
-            </ol>
-        </aside>
-
-    </section>
+              <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+                  <div class="carousel__snapper">
+                  <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+                  <a href="#carousel__slide1" class="carousel__next">Go to next slide</a>
+                  </div>
+              </li>
+          </ol>
 
 
-    <section class="carousel">
-        <ol class="carousel__viewport"> <!-- ordered list containing the slides, with a snapper which snaps to the other slides-->
-            <li id="carouse2__slide1" tabindex="0" class="carousel__slide">
-                <div class="carousel__snapper">
-                <a href="#carouse2__slide4" class="carousel__prev"> Go to previous slide</a>
-                <a href="#carouse2__slide2" class="carousel__next"> Go to next slide</a>
-                </div>
-            </li>
+          <aside class="carousel__navigation">
+              <ol class="carousel__navigation-list">
+                  <li class="carousel__navigation-item">
+                      <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+                  </li>
+                  <li class="carousel__navigation-item">
+                      <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+                  </li>
+                  <li class="carousel__navigation-item">
+                      <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+                  </li>
+                  <li class="carousel__navigation-item">
+                      <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+                  </li>
+              </ol>
+          </aside>
 
-            <li id="carouse2__slide2" tabindex="0" class="carousel__slide">
-                <div class="carousel__snapper">
-                <a href="#carouse2__slide1" class="carousel__prev">Go to previous slide</a>
-                <a href="#carouse2__slide3" class="carousel__next">Go to next slide</a>
-                </div>
-            </li>
-            <li id="carouse2__slide3" tabindex="0" class="carousel__slide">
-                <div class="carousel__snapper">
-                <a href="#carouse2__slide2" class="carousel__prev"> Go to previous slide</a>
-                <a href="#carouse2__slide4" class="carousel__next"> Go to next slide</a>
-                </div>
-            </li>
+      </section>
 
-            <li id="carouse2__slide4" tabindex="0" class="carousel__slide">
-                <div class="carousel__snapper">
-                <a href="#carouse2__slide3" class="carousel__prev">Go to previous slide</a>
-                <a href="#carouse2__slide1" class="carousel__next">Go to next slide</a>
-                </div>
-            </li>
-        </ol>
+      <!--carousel 2-->
+      <section class="carousel">
+          <ol class="carousel__viewport"> <!-- ordered list containing the slides, with a snapper which snaps to the other slides-->
+              <li id="carouse2__slide1" tabindex="0" class="carousel__slide">
+                  <div class="carousel__snapper">
+                  <a href="#carouse2__slide4" class="carousel__prev"> Go to previous slide</a>
+                  <a href="#carouse2__slide2" class="carousel__next"> Go to next slide</a>
+                  </div>
+              </li>
 
+              <li id="carouse2__slide2" tabindex="0" class="carousel__slide">
+                  <div class="carousel__snapper">
+                  <a href="#carouse2__slide1" class="carousel__prev">Go to previous slide</a>
+                  <a href="#carouse2__slide3" class="carousel__next">Go to next slide</a>
+                  </div>
+              </li>
+              <li id="carouse2__slide3" tabindex="0" class="carousel__slide">
+                  <div class="carousel__snapper">
+                  <a href="#carouse2__slide2" class="carousel__prev"> Go to previous slide</a>
+                  <a href="#carouse2__slide4" class="carousel__next"> Go to next slide</a>
+                  </div>
+              </li>
 
-        <aside class="carousel__navigation">
-            <ol class="carousel__navigation-list">
-                <li class="carousel__navigation-item">
-                    <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
-                </li>
-                <li class="carousel__navigation-item">
-                    <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
-                </li>
-                <li class="carousel__navigation-item">
-                    <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
-                </li>
-                <li class="carousel__navigation-item">
-                    <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
-                </li>
-            </ol>
-        </aside>
-
-    </section>
-
-
+              <li id="carouse2__slide4" tabindex="0" class="carousel__slide">
+                  <div class="carousel__snapper">
+                  <a href="#carouse2__slide3" class="carousel__prev">Go to previous slide</a>
+                  <a href="#carouse2__slide1" class="carousel__next">Go to next slide</a>
+                  </div>
+              </li>
+          </ol>
 
 
+          <aside class="carousel__navigation">
+              <ol class="carousel__navigation-list">
+                  <li class="carousel__navigation-item">
+                      <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+                  </li>
+                  <li class="carousel__navigation-item">
+                      <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+                  </li>
+                  <li class="carousel__navigation-item">
+                      <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+                  </li>
+                  <li class="carousel__navigation-item">
+                      <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+                  </li>
+              </ol>
+          </aside>
+
+      </section>
+
+      <!--carousel 3-->
+      <section class="carousel">
+          <ol class="carousel__viewport"> <!-- ordered list containing the slides, with a snapper which snaps to the other slides-->
+              <li id="carouse3__slide1" tabindex="0" class="carousel__slide">
+                  <div class="carousel__snapper">
+                  <a href="#carouse3__slide4" class="carousel__prev"> Go to previous slide</a>
+                  <a href="#carouse3__slide2" class="carousel__next"> Go to next slide</a>
+                  </div>
+              </li>
+
+              <li id="carouse3__slide2" tabindex="0" class="carousel__slide">
+                  <div class="carousel__snapper">
+                  <a href="#carouse3__slide1" class="carousel__prev">Go to previous slide</a>
+                  <a href="#carouse3__slide3" class="carousel__next">Go to next slide</a>
+                  </div>
+              </li>
+              <li id="carouse3__slide3" tabindex="0" class="carousel__slide">
+                  <div class="carousel__snapper">
+                  <a href="#carouse3__slide2" class="carousel__prev"> Go to previous slide</a>
+                  <a href="#carouse3__slide4" class="carousel__next"> Go to next slide</a>
+                  </div>
+              </li>
+
+              <li id="carouse3__slide4" tabindex="0" class="carousel__slide">
+                  <div class="carousel__snapper">
+                  <a href="#carouse3__slide3" class="carousel__prev">Go to previous slide</a>
+                  <a href="#carouse3__slide1" class="carousel__next">Go to next slide</a>
+                  </div>
+              </li>
+          </ol>
 
 
+          <aside class="carousel__navigation">
+              <ol class="carousel__navigation-list">
+                  <li class="carousel__navigation-item">
+                      <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+                  </li>
+                  <li class="carousel__navigation-item">
+                      <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+                  </li>
+                  <li class="carousel__navigation-item">
+                      <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+                  </li>
+                  <li class="carousel__navigation-item">
+                      <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+                  </li>
+              </ol>
+          </aside>
+
+      </section>
+
+
+
+
+
+    </div>
   </body>
-
+    
 </html>
 
     
