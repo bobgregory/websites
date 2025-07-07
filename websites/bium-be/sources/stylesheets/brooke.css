@@ -45,7 +45,11 @@ ol, li {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
-  background-color: #f99;
+  background-image: url("../../sources/images/lps/bag.jpg");
+  background-position: center;
+  background-size: contain;
+    background-repeat: no-repeat;
+  
   counter-increment: item;
 }
 
@@ -53,8 +57,35 @@ ol, li {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
-  background-color: #a4daee;
-  counter-increment: item;   
+  background-image: url("../../sources/images/lps/lpsplush1.png");
+  background-position: center;
+  background-size: contain;
+    background-repeat: no-repeat;
+  
+  counter-increment: item;  
+}
+
+#carousel__slide3 {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  background-image: url("../../sources/images/lps/lpsplush2.png");
+  background-position: center;
+  background-size: contain;
+    background-repeat: no-repeat;
+  
+  counter-increment: item;  
+}
+#carousel__slide4 {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  background-image: url("../../sources/images/lps/lpsplush3.png");
+  background-position: center;
+  background-size: contain;
+    background-repeat: no-repeat;
+  
+  counter-increment: item;  
 }
 /*add more here and change the background to photos*/
 
@@ -69,7 +100,7 @@ ol, li {
   top: 50%;
   left: 50%;                                /*position of text*/
   transform: translate3d(-50%,-40%,70px);
-  color: #fff;
+  color: #ffffff00;
   font-size: 30px;
 }
 
@@ -99,7 +130,7 @@ ol, li {
   display: inline-block;  /* circles next to eachother*/
   width: 20px;
   height: 20px;
-  background-color: #948f8f;
+  background-color: #948f8f00;
   border-radius: 50%;
   font-size: 0;  /*hides font*/
 }
