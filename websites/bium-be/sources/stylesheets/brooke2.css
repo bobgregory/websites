@@ -1,0 +1,47 @@
+#carouse2__slide1 {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  background-image: url("../../sources/images/lps/bag.jpg");
+  background-position: center;
+  background-size: contain;
+    background-repeat: no-repeat;
+  
+  counter-increment: item;
+}
+
+#carouse2__slide2 {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  background-image: url("../../sources/images/lps/lpsplush1.png");
+  background-position: center;
+  background-size: contain;
+    background-repeat: no-repeat;
+  
+  counter-increment: item;  
+}
+
+#carouse2__slide3 {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  background-image: url("../../sources/images/lps/lpsplush2.png");
+  background-position: center;
+  background-size: contain;
+    background-repeat: no-repeat;
+  
+  counter-increment: item;  
+}
+#carouse2__slide4 {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  background-image: url("../../sources/images/lps/lpsplush3.png");
+  background-position: center;
+  background-size: contain;
+    background-repeat: no-repeat;
+  
+  counter-increment: item;  
+}
+/*add more here and change the background to photos*/
