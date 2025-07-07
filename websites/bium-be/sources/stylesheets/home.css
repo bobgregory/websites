@@ -7,6 +7,8 @@ body {
 
 
 .topnav {  /*styles the bg of the nav bar*/
+  display: flex;
+  justify-content: space-evenly;
   overflow: hidden;
   background-color: #333;
   margin-left: 8%;
