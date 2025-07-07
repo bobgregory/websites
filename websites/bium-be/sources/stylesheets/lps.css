@@ -8,15 +8,18 @@ header img{
     width: 100vw;
 }
 
-footer img{
-    width: 100vw;
+.footer {
+  position: relative;
+  text-align: center;
+  color: #f8759f;
 }
 
 .bottom-left {
   position: absolute;
-  bottom: 0px; /*next job is getting this to work */
-  left: 0px;
+  bottom: 8px;
+  left: 16px;
 }
+
 
 
 
@@ -43,6 +46,18 @@ footer img{
     color: #38b3d5;
     font-family: fantasy; /*i want to change this to the LPS font*/
     font-size: large;
+    a:link {
+    color: #38b3d5;
+    text-decoration: none;
+    }
+    a:visited {
+    color: #38b3d5;
+    text-decoration: none;
+    }
+    a:hover {
+     color: #3094b0;
+    text-decoration: none;
+    }
 }
 
 
