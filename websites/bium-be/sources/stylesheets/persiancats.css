@@ -1,0 +1,50 @@
+
+body{
+    display: grid;
+    justify-items: center;
+}
+
+.page{
+    padding-left:  60px;
+    padding-right: 60px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1000px 300px;    
+}
+
+/*down across down across*/
+
+.container-1{
+  display: grid;
+  grid-template-columns: 200px 100px 500px 100px 100px;
+
+}
+.container-1 > div {
+  border: 1px solid black;
+  font-size: 30px;
+  text-align: center;
+}
+.persian {
+    grid-area: 1/2/4/3;
+}   
+
+#title {
+    width:  400px;
+    overflow: visible;
+}
+.logo{
+    grid-area: 1/1/4/2;
+}
+#logo {
+    width: 100px
+}
+
+
+
+.container-1, .container-2, .container-3, .container-4{
+    border: solid 2px;
+}
+
+
+
+
