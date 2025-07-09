@@ -9,7 +9,8 @@ body{
     padding-right: 60px;
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 1000px 300px;    
+    grid-template-columns: 1000px 300px; 
+
 }
 
 /*down across down across*/
@@ -17,15 +18,18 @@ body{
 .container-1{
   display: grid;
   grid-template-columns: 200px 100px 500px 100px 100px;
-
+  background-color: white;
 }
+
+
 .container-1 > div {
-  border: 1px solid black;
+ 
   font-size: 30px;
   text-align: center;
 }
 .persian {
-    grid-area: 1/2/4/3;
+    grid-area: 1/2/3/4;
+    border: solid 3px;
 }   
 
 #title {
@@ -33,10 +37,17 @@ body{
     overflow: visible;
 }
 .logo{
-    grid-area: 1/1/4/2;
+    grid-area: 1/1/3/3;
+    border: solid 3px;
+    padding-left: 230px;
+
 }
 #logo {
     width: 100px
+}
+
+.one {
+    background-color: aqua;
 }
 
 
