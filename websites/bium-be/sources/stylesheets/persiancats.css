@@ -101,22 +101,38 @@ body{
     }
 
     .cat > div {
-         border: solid #f0aec4;
+         
     }
 
         .lpsphoto{
             grid-area: 2/2/3/3;
+            
         }
 
         #lpsphoto{
             width: 175px;
         }
         .check{
-            grid-area: 3/3/4/4;
+            grid-area: 2/3/4/4;
+            border: solid 4px #f0aec4;
+            border-radius: 12px;
+            outline: dashed 3.2px #618dc0;
+
+
         }
 
+
         .number{
+            border: solid 4px #f0aec4;
+            border-radius: 12px;
+            outline: dashed 3.2px #618dc0;
+            margin: 15px;
             grid-area: 1/2/2/3;
+            font-weight: bold;
+            font-size: 3cap;
+            padding-top: 10px;
+            color:#d75983
+        
         }
 
 
