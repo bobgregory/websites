@@ -3,3 +3,10 @@
     width:  616px;
 }
 
+
+
+#show,#content{display:none;}
+#show:checked~#content{display:block;}
+
+
+

@@ -1,0 +1,30 @@
+body{
+  background-image: url(../../sources/images/headlights/frozenuponentry.jpg);
+  color: antiquewhite;
+}
+
+
+#show,#content{display:none;}
+#show:checked~#content{display:block;}
+
+
+
+
+ 
+.deerone input[type="radio"] {
+  display: none;
+}                         /*hides radio buttons*/
+
+
+span#content {
+    display:none;
+}
+
+
+input#show:checked ~ span#content {
+  display:grid;
+}
+
+input#hide:checked ~ span#content {
+    display:none;
+}
