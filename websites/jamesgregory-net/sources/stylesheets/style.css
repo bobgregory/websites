@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    background-color: #3c3836;
+    color: #ebdbb2;
+}
+
+
+
+.container {
+
+}
+
+.container div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    position: relative;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container image {
+    width: 100%;
+    aspect-ratio: 4/3;
+}
+
+.container h3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credits{
+    float: right;
+    text-align: right;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
