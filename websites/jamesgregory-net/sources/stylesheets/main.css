@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: #3c3836;
+    color: #ebdbb2;
+    font-family: Helvetica;
+    overflow: hidden;
+}
+
+
+.header{
+    justify-content: center;
+    align-items: center;
+    background-color: #d65d0e;
+    width: 100vw;
+    height: 4rem;
+    padding-left: 10vw;
+    box-shadow: 0rem 1rem 1rem 0rem rgba(0,0,0,0.3);
+}
+
+a {
+    text-decoration: none;
+}
+
+.header h1{
+    color: #ebdbb2; 
+    font-size: 4rem;
+}
+
+
+.credits{
+    text-align: right;
+    margin: 0.3rem;
+    position: fixed;
+    bottom: 0rem;
+    right: 0rem;
+    height: 0.5rem;
+    font-size: 0.5rem;
+    
+}
