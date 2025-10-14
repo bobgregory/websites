@@ -16,6 +16,7 @@ a {
 }
 
 .container a:hover {
+    transform: scale(1.005);
     box-shadow: 0rem 1rem 1rem 0rem rgba(0,0,0,0.4);
     transition-duration: 0.2s;
 }
@@ -44,4 +45,4 @@ a {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: 
+}
