@@ -1,14 +1,22 @@
 
 body {
-    margin: 0px;
+    margin: auto;
     display: grid;
+    max-width: 95%;
+    min-width: 60%, min-content;
     place-items: center;
     font-family: "Inter var", "Helvetica Neue", Helvetica, sans-serif;
-    background-color: #a0929e;
+    background-color: #3c3836;
+    color: #ebdbb2;
 }
 
 * {
-   # border: red 1px solid;
+    'border: red 1px solid;
+}
+
+a {
+    color: #ebdbb2;
+    text-decoration: none;
 }
 
 .topbar{
@@ -16,9 +24,10 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     height: 10rem, min-content;
-    max-width: 95%;
+    
     justify-content: center;
-    border-bottom: black 2px solid;
+    
+    
 }
 
 header{
@@ -47,18 +56,31 @@ nav {
 
 nav a{
     padding: 1rem;
-    margin: 0.1rem;
-    background-color: pink;
+    margin: 0.3rem;
+    
     width: 10rem;
     font-size: 2rem;
+    border-radius: 1rem;
+}
+
+nav a:hover{
+    padding: 1rem;
+    margin: 0.3rem;
+    background-color: #8f3f71;
+    width: 10rem;
+    font-size: 2rem;
+    border-radius: 1rem;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    max-width: 95%;
+    min-width: 65%;
     justify-content: center;
     align-items: center;
+    border-top: #8f3f71 0.3rem solid;
+    border-radius: 0.2rem;
 }
 
 main div {
@@ -67,11 +89,17 @@ main div {
 }
 
 footer{
-    margin: 0.3rem;
+    margin: 0rem;
     position: fixed;
-    width: 90%;
+    max-width: 95%;
+    min-width: 60%;
+    display: grid;
+    place-items: center;
     bottom: 0rem;
     height: 5rem;
     font-size: 1rem;
     padding: 1rem;
-    border-top: black 2px solid;
+    background-color: #3c3836;
+    border-top: #8f3f71 0.3rem solid;
+    border-radius: 0.2rem;
+}
