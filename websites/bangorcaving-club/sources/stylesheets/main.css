@@ -1,0 +1,61 @@
+
+body {
+    margin: 0px;
+    font-family: "Inter var", "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #a0929e;
+}
+
+* {
+    border: red 1px solid;
+}
+
+.topbar{
+    height: 10rem;
+    width: 80%;
+    margin-left: auto;
+    justify-content: center;
+    margin: 1rem;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+header{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+header h1{
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+header img{
+    height: 10rem;
+    width: auto;
+}
+
+nav {
+    align-items:flex-end;
+    display: inline-flex;
+    flex-direction: row;
+    width: min-content;
+    height: min-content;
+    background-color: orange;
+}
+
+nav a{
+    padding: 1rem;
+    margin: 0.1rem;
+    background-color: pink;
+    width: 10rem;
+    font-size: 2rem;
+}
+
+footer{
+    margin: 0.3rem;
+    position: fixed;
+    bottom: 0rem;
+    left: 0rem;
+    height: 5rem;
+    font-size: 1rem;
+}
