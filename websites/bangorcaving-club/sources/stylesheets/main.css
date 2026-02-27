@@ -1,22 +1,24 @@
 
 body {
     margin: 0px;
+    display: grid;
+    place-items: center;
     font-family: "Inter var", "Helvetica Neue", Helvetica, sans-serif;
     background-color: #a0929e;
 }
 
 * {
-    border: red 1px solid;
+   # border: red 1px solid;
 }
 
 .topbar{
-    height: 10rem;
-    width: 80%;
-    margin-left: auto;
-    justify-content: center;
-    margin: 1rem;
     display: inline-flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    height: 10rem, min-content;
+    max-width: 95%;
+    justify-content: center;
+    border-bottom: black 2px solid;
 }
 
 header{
@@ -38,9 +40,9 @@ nav {
     align-items:flex-end;
     display: inline-flex;
     flex-direction: row;
-    width: min-content;
+    flex-wrap: wrap;
+    width: max-content;
     height: min-content;
-    background-color: orange;
 }
 
 nav a{
@@ -51,11 +53,25 @@ nav a{
     font-size: 2rem;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+main div {
+    width: 38rem;
+
+}
+
 footer{
     margin: 0.3rem;
     position: fixed;
+    width: 90%;
     bottom: 0rem;
-    left: 0rem;
     height: 5rem;
     font-size: 1rem;
-}
+    padding: 1rem;
+    border-top: black 2px solid;

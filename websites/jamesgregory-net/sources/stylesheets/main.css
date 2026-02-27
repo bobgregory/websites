@@ -29,6 +29,12 @@ header h1{
     font-size: 4rem;
 }
 
+main {
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
 .credits{
     text-align: right;
     margin: 0.3rem;
