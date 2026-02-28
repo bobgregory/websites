@@ -79,7 +79,7 @@
 
         [http.middlewares.error-pages-500.errors]
                 status = ["500-599"]
-                service = "error-pages-500"
+                service = "error-pages"
                 query = "/{status}.html"
 
         [http.middlewares.serverheader.headers]
