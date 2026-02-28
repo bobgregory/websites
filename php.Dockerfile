@@ -5,7 +5,7 @@ ADD https://github.com/mlocati/docker-php-extension-installer/releases/latest/do
 RUN apk update && apk upgrade
 
 COPY ./php-8-3/config/php.ini-production "$PHP_INI_DIR/php.ini-production"
-COPY ./php-8.3/config/pool.d "$PHP_INI_DIR/"
+COPY ./php-8-3/config/pool.d "$PHP_INI_DIR/"
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
 
 RUN apk add --no-cache --virtual .build-deps $PHPIZE_DEPS \
