@@ -5,7 +5,7 @@
                 service = "cloud"
                 middlewares = ["redirectscheme","serverheader","error-pages"]
                 priority = 10
-                [http.routers.traefik.tls]
+                [http.routers.cloud.tls]
                         certResolver = "le-web"
 
         [http.routers.photos]
@@ -14,7 +14,7 @@
                 service = "photos"
                 middlewares = ["redirectscheme","serverheader","error-pages"]
                 priority = 10
-                [http.routers.traefik.tls]
+                [http.routers.photos.tls]
                         certResolver = "le-web"
 
         [http.routers.panel]
@@ -23,7 +23,7 @@
                 service = "panel"
                 middlewares = ["redirectscheme","serverheader","error-pages"]
                 priority = 10
-                [http.routers.traefik.tls]
+                [http.routers.panel.tls]
                         certResolver = "le-web"
 
         [http.routers.hugoswitt]
@@ -32,7 +32,7 @@
                 service = "hugoswitt"
                 middlewares = ["redirectscheme","serverheader","error-pages"]
                 priority = 10
-                [http.routers.traefik.tls]
+                [http.routers.hugoswitt.tls]
                         certResolver = "le-web"
 
         [http.routers.swittnet]
@@ -41,7 +41,7 @@
                 service = "swittnet"
                 middlewares = ["redirectscheme","serverheader","error-pages"]
                 priority = 10
-                [http.routers.traefik.tls]
+                [http.routers.swittnet.tls]
                         certResolver = "le-web"
 
         [http.routers.jamesgregory]
@@ -50,7 +50,7 @@
                 service = "jamesgregory"
                 middlewares = ["redirectscheme","serverheader","error-pages"]
                 priority = 10
-                [http.routers.traefik.tls]
+                [http.routers.jamesgregory.tls]
                         certResolver = "le-web"
 
         [http.routers.biumbe]
@@ -59,7 +59,7 @@
                 service = "biumbe"
                 middlewares = ["redirectscheme","serverheader","error-pages"]
                 priority = 10
-                [http.routers.traefik.tls]
+                [http.routers.biumbe.tls]
                         certResolver = "le-web"
 
         [http.routers.biumbe-board]
@@ -68,7 +68,7 @@
                 service = "biumbe-board"
                 middlewares = ["redirectscheme","serverheader","error-pages"]
                 priority = 10
-                [http.routers.traefik.tls]
+                [http.routers.biumbe-board.tls]
                         certResolver = "le-web"
 
 [http.middlewares]
