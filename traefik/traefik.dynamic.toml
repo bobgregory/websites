@@ -111,7 +111,7 @@
 
         [http.services.biumbe-board.loadBalancer]
                 [[http.services.biumbe-board.loadBalancer.servers]]
-                        url = "https://karakeep-web:3000"
+                        url = "http://karakeep-web:3000"
 
         [http.services.photos.loadBalancer]
                 [[http.services.photos.loadBalancer.servers]]
