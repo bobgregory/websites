@@ -6,6 +6,7 @@
     <link rel="icon" href="sources/icon256.png">
 
     <link rel="stylesheet" href="sources/stylesheets/main.css">
+
 </head>
 
 <body>
@@ -28,7 +29,7 @@
     <main>
         <div>
             <h2>Trips Calendar</h2>
-            <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=2&ctz=Europe%2FLondon&showPrint=0&showTz=0&showCalendars=0&showTabs=0&hl=en_GB&title=Bangor%20Caving%20Calendar&showTitle=0&src=YmFuZ29ydW5pY2F2aW5nQGdtYWlsLmNvbQ&src=ZW4tZ2IudWsjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%238e24aa&color=%23e4c441" style="border-width:0" width=100% height=400rem frameborder="0" scrolling="no"></iframe>
+            <iframe src="cal.php" style="border-width:0" width=100% height=400rem frameborder="0" scrolling="no"></iframe>
         </div>
         
         <div>
