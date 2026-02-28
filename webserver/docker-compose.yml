@@ -6,6 +6,21 @@ services:
     deploy:
       labels:
         com.ouroboros.enable: "true"
+    links:
+     - nginx-php
+
+  nginx-php:
+    container_name: nginx-php
+    image: ghcr.io/bobgregory/websites-php:latest
+    restart: unless-stopped
+    deploy:
+      labels:
+        com.ouroboros.enable: "true"
+#    volumes:
+#      - ./nginx-web/webdir:/var/www/
+#      - ./nginx-web/php-log:/var/log/
+    links:
+     - nginx-redis
 
   updater:
     image: gmt2001/ouroboros:latest
