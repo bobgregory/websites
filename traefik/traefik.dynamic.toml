@@ -29,7 +29,7 @@
         [http.routers.hugoswitt]
                 entrypoints = ["websecure","web"]
                 rule = "Host(`hugoswitt.co.uk`) || Host(`www.hugoswitt.co.uk`)"
-                service = "hugoswitt"
+                service = "nginx"
                 middlewares = ["redirectscheme","serverheader","error-pages"]
                 priority = 10
                 [http.routers.hugoswitt.tls]
@@ -38,8 +38,8 @@
         [http.routers.swittnet]
                 entrypoints = ["websecure","web"]
                 rule = "Host(`switt.net`) || Host(`www.switt.net`)"
-                service = "swittnet"
-                middlewares = ["redirectscheme","serverheader","error-pages"]
+                service = "nginx"
+                middlewares = ["redirectscheme","serverheader","error-pages-500"]
                 priority = 10
                 [http.routers.swittnet.tls]
                         certResolver = "le-web"
@@ -47,7 +47,7 @@
         [http.routers.jamesgregory]
                 entrypoints = ["websecure","web"]
                 rule = "Host(`jamesgregory.net`) || Host(`www.jamesgregory.net`)"
-                service = "jamesgregory"
+                service = "nginx"
                 middlewares = ["redirectscheme","serverheader","error-pages"]
                 priority = 10
                 [http.routers.jamesgregory.tls]
@@ -56,7 +56,7 @@
         [http.routers.biumbe]
                 entrypoints = ["websecure","web"]
                 rule = "Host(`bium.be`) || Host(`www.bium.be`)"
-                service = "biumbe"
+                service = "nginx"
                 middlewares = ["redirectscheme","serverheader","error-pages"]
                 priority = 10
                 [http.routers.biumbe.tls]
@@ -75,6 +75,11 @@
         [http.middlewares.error-pages.errors]
                 status = ["400-599"]
                 service = "error-pages"
+                query = "/{status}.html"
+
+        [http.middlewares.error-pages-500.errors]
+                status = ["500-599"]
+                service = "error-pages-500"
                 query = "/{status}.html"
 
         [http.middlewares.serverheader.headers]
@@ -100,20 +105,8 @@
                 [[http.services.panel.loadBalancer.servers]]
                         url = "https://[fd00:2::fff3]:443"
 
-        [http.services.hugoswitt.loadBalancer]
-                [[http.services.hugoswitt.loadBalancer.servers]]
-                        url = "https://[fd00:2::ffff]:443"
-
-        [http.services.swittnet.loadBalancer]
-                [[http.services.swittnet.loadBalancer.servers]]
-                        url = "https://[fd00:2::ffff]:443"
-
-        [http.services.jamesgregory.loadBalancer]
-                [[http.services.jamesgregory.loadBalancer.servers]]
-                        url = "https://[fd00:2::ffff]:443"
-
-        [http.services.biumbe.loadBalancer]
-                [[http.services.biumbe.loadBalancer.servers]]
+        [http.services.nginx.loadBalancer]
+                [[http.services.nginx.loadBalancer.servers]]
                         url = "https://[fd00:2::ffff]:443"
 
         [http.services.biumbe-board.loadBalancer]
