@@ -29,7 +29,7 @@
     <main>
         <div>
             <h2>Trips Calendar</h2>
-            <iframe src="cal.php" style="border-width:0" width=100% height=400rem frameborder="0" scrolling="no"></iframe>
+            <iframe src="cal.php" style="border-width:0" width=100% frameborder="0" scrolling="no"></iframe>
         </div>
         
         <div>
@@ -44,6 +44,8 @@
 
 
 
+    
+    </main>
     <footer>
         <h3>External Resources</h3>
         <div>
@@ -51,5 +53,4 @@
             <a href="https://checc.org/">Council of Higher Education Caving Clubs</a>
         </div>
     </footer>
-    </main>
 </body>

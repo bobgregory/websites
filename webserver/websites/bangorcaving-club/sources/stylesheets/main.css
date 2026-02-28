@@ -74,9 +74,9 @@ nav a:hover{
 
 main {
     display: flex;
-    flex-direction: column;
-    max-width: 95%;
-    min-width: 65%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: clamp(65%, 100%, 60vh);
     justify-content: center;
     align-items: center;
     border-top: #8f3f71 0.3rem solid;
@@ -84,21 +84,26 @@ main {
 }
 
 main div {
-    width: 38rem;
+    width: clamp(20%, 100%, 60vh);
 
+    
+    margin: auto 1rem auto 1rem;
+}
+
+main iframe{
+    max-height: 70vh;
+    aspect-ratio: 1.4;
 }
 
 footer{
     margin: 0rem;
     position: fixed;
-    max-width: 95%;
-    min-width: 60%;
+    width: clamp(65%, 100%, 60vh);
     display: grid;
     place-items: center;
     bottom: 0rem;
     height: 5rem;
     font-size: 1rem;
-    padding: 1rem;
     background-color: #3c3836;
     border-top: #8f3f71 0.3rem solid;
     border-radius: 0.2rem;
