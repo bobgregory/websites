@@ -88,6 +88,10 @@
                 permanent = true
 
 [http.services]
+        [http.services.error-pages.loadBalancer]
+                [[http.services.error-pages.loadBalancer.servers]]
+                        url = "http://error-pages:8090"
+
         [http.services.cloud.loadBalancer]
                 [[http.services.cloud.loadBalancer.servers]]
                         url = "http://seafile"
