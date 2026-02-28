@@ -1,0 +1,32 @@
+[log]
+        level = "INFO"
+
+[entryPoints]
+        [entryPoints.web]
+                address = ":80"
+                [entryPoints.web.http.redirections.entryPoint]
+                        to = "websecure"
+
+        [entryPoints.websecure]
+                address = ":443"
+
+[certificatesResolvers.le-web.acme]
+        email = "admin+le-web@jamesgregory.net"
+        storage = "/acme/acme-80.json"
+        [certificatesResolvers.le-web.acme.tlsChallenge]
+
+
+[tls.options]
+        [tls.options.default]
+                sniStrict = true
+
+[providers]
+        [providers.file]
+                filename = "/etc/traefik/traefik.dynamic.toml"
+                watch = true
+
+[api]
+        insecure = true
+
+[serversTransport]
+        insecureSkipVerify = true

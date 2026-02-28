@@ -1,4 +1,20 @@
 services:
+  traefik:
+    image: traefik:latest
+    container_name: traefik
+    restart: unless-stopped
+    ports:
+      - "443:443/tcp"
+      - "80:80/tcp"
+    volumes:
+      - ./traefik/acme/:/acme
+    networks:
+      default:
+         ipv6_address: "fd00:1:4::fff1"
+    deploy:
+      labels:
+        com.ouroboros.enable: "true"
+
   git-web:
     container_name: git-web
     image: ghcr.io/bobgregory/websites:latest

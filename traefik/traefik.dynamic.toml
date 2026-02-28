@@ -1,0 +1,121 @@
+[http.routers]
+        [http.routers.cloud]
+                entrypoints = ["websecure","web"]
+                rule = "Host(`cloud.jamesgregory.net`)"
+                service = "cloud"
+                middlewares = ["redirectscheme","serverheader","error-pages"]
+                priority = 10
+                [http.routers.traefik.tls]
+                        certResolver = "le-web"
+
+        [http.routers.photos]
+                entrypoints = ["websecure","web"]
+                rule = "Host(`photos.jamesgregory.net`)"
+                service = "photos"
+                middlewares = ["redirectscheme","serverheader","error-pages"]
+                priority = 10
+                [http.routers.traefik.tls]
+                        certResolver = "le-web"
+
+        [http.routers.panel]
+                entrypoints = ["websecure","web"]
+                rule = "Host(`panel.jamesgregory.net`)"
+                service = "panel"
+                middlewares = ["redirectscheme","serverheader","error-pages"]
+                priority = 10
+                [http.routers.traefik.tls]
+                        certResolver = "le-web"
+
+        [http.routers.hugoswitt]
+                entrypoints = ["websecure","web"]
+                rule = "Host(`hugoswitt.co.uk`) || Host(`www.hugoswitt.co.uk`)"
+                service = "hugoswitt"
+                middlewares = ["redirectscheme","serverheader","error-pages"]
+                priority = 10
+                [http.routers.traefik.tls]
+                        certResolver = "le-web"
+
+        [http.routers.swittnet]
+                entrypoints = ["websecure","web"]
+                rule = "Host(`switt.net`) || Host(`www.switt.net`)"
+                service = "swittnet"
+                middlewares = ["redirectscheme","serverheader","error-pages"]
+                priority = 10
+                [http.routers.traefik.tls]
+                        certResolver = "le-web"
+
+        [http.routers.jamesgregory]
+                entrypoints = ["websecure","web"]
+                rule = "Host(`jamesgregory.net`) || Host(`www.jamesgregory.net`)"
+                service = "jamesgregory"
+                middlewares = ["redirectscheme","serverheader","error-pages"]
+                priority = 10
+                [http.routers.traefik.tls]
+                        certResolver = "le-web"
+
+        [http.routers.biumbe]
+                entrypoints = ["websecure","web"]
+                rule = "Host(`bium.be`) || Host(`www.bium.be`)"
+                service = "biumbe"
+                middlewares = ["redirectscheme","serverheader","error-pages"]
+                priority = 10
+                [http.routers.traefik.tls]
+                        certResolver = "le-web"
+
+        [http.routers.biumbe-board]
+                entrypoints = ["websecure","web"]
+                rule = "Host(`board.bium.be`)"
+                service = "biumbe-board"
+                middlewares = ["redirectscheme","serverheader","error-pages"]
+                priority = 10
+                [http.routers.traefik.tls]
+                        certResolver = "le-web"
+
+[http.middlewares]
+        [http.middlewares.error-pages.errors]
+                status = ["400-599"]
+                service = "error-pages"
+                query = "/{status}.html"
+
+        [http.middlewares.serverheader.headers]
+                [http.middlewares.serverheader.headers.customresponseheaders]
+                        Server = "Swittnet"
+                        X-Powered-By = "Magic"
+                        X-Served-By = "switt.net"
+
+        [http.middlewares.redirectscheme.redirectScheme]
+                scheme = "https"
+                permanent = true
+
+[http.services]
+        [http.services.cloud.loadBalancer]
+                [[http.services.cloud.loadBalancer.servers]]
+                        url = "http://seafile"
+
+        [http.services.panel.loadBalancer]
+                [[http.services.panel.loadBalancer.servers]]
+                        url = "https://[fd00:2::fff3]:443"
+
+        [http.services.hugoswitt.loadBalancer]
+                [[http.services.hugoswitt.loadBalancer.servers]]
+                        url = "https://[fd00:2::ffff]:443"
+
+        [http.services.swittnet.loadBalancer]
+                [[http.services.swittnet.loadBalancer.servers]]
+                        url = "https://[fd00:2::ffff]:443"
+
+        [http.services.jamesgregory.loadBalancer]
+                [[http.services.jamesgregory.loadBalancer.servers]]
+                        url = "https://[fd00:2::ffff]:443"
+
+        [http.services.biumbe.loadBalancer]
+                [[http.services.biumbe.loadBalancer.servers]]
+                        url = "https://[fd00:2::ffff]:443"
+
+        [http.services.biumbe-board.loadBalancer]
+                [[http.services.biumbe-board.loadBalancer.servers]]
+                        url = "https://karakeep-web:3000"
+
+        [http.services.photos.loadBalancer]
+                [[http.services.photos.loadBalancer.servers]]
+                        url = "http://immich_server:2283"

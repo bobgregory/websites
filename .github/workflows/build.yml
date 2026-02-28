@@ -17,7 +17,7 @@ jobs:
         packages: write
     strategy:
       matrix:
-        component: ["nginx", "php"]
+        component: ["nginx", "php", "traefik"]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
