@@ -47,10 +47,19 @@
     
     </main>
     <footer>
-        <h3>External Resources</h3>
         <div>
-            <a href="https://british-caving.org.uk/">British Caving Association</a>
-            <a href="https://checc.org/">Council of Higher Education Caving Clubs</a>
+            <h3>External Resources</h3>
+            <div>
+                <a href="https://british-caving.org.uk/">British Caving Association</a><br>
+                <a href="https://checc.org/">Council of Higher Education Caving Clubs</a>
+            </div>
+        </div>
+        <div>
+            <h3>Social Media</h3>
+            <div>
+                <a href="https://british-caving.org.uk/">sopcials medaid</a><br>
+                <a href="https://checc.org/">Council of facebookery</a>
+            </div>
         </div>
     </footer>
 </body>

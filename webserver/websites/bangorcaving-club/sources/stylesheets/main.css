@@ -10,9 +10,6 @@ body {
     color: #ebdbb2;
 }
 
-* {
-    # border: red 1px solid;
-}
 
 a {
     color: #ebdbb2;
@@ -47,6 +44,7 @@ header img{
 
 nav {
     align-items:flex-end;
+    
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -57,7 +55,7 @@ nav {
 nav a{
     padding: 1rem;
     margin: 0.3rem;
-    
+    text-align: center;
     width: 10rem;
     font-size: 2rem;
     border-radius: 1rem;
@@ -107,4 +105,8 @@ footer{
     background-color: #3c3836;
     border-top: #8f3f71 0.3rem solid;
     border-radius: 0.2rem;
+}
+
+footer .div{
+    width: 10rem;
 }
