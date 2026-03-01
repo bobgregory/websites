@@ -58,7 +58,7 @@
             <h3>Social Media</h3>
             <div>
                 <a href="https://british-caving.org.uk/">sopcials medaid</a><br>
-                <a href="https://checc.org/">Council of facebookery</a>
+                <a href="https://checc.org/">Council of facebook</a>
             </div>
         </div>
     </footer>

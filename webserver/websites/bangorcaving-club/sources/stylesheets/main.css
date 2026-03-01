@@ -10,6 +10,9 @@ body {
     color: #ebdbb2;
 }
 
+*{
+    border: red 1px solid;
+}
 
 a {
     color: #ebdbb2;
@@ -97,8 +100,9 @@ footer{
     margin: 0rem;
     position: fixed;
     width: clamp(65%, 100%, 60vh);
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     bottom: 0rem;
     height: 5rem;
     font-size: 1rem;
@@ -107,6 +111,7 @@ footer{
     border-radius: 0.2rem;
 }
 
-footer .div{
-    width: 10rem;
+footer div{
+    margin: 1rem;
+    text-align: center;
 }
