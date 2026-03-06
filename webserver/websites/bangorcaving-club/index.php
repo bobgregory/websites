@@ -19,10 +19,10 @@
         </header>
 
         <nav>
-            <a href="index.html">Home</a>
-            <a href="index.html">Committee</a>
-            <a href="index.html">Caving</a>
-            <a href="index.html">Join Us</a>
+            <a href="construction">Home</a>
+            <a href="construction">Committee</a>
+            <a href="construction">Caving</a>
+            <a href="construction">Join Us</a>
         </nav>
     </div>
 
@@ -35,16 +35,10 @@
         <div>
             <h2>About us</h2>
             <p1>
-                words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>words<br>
+                Lorem Ipsum this is still lacking content<br> the layout is done and adding content will not be hard<br>
                 
             </p1>
-
-            
         </div>
-
-
-
-    
     </main>
     <footer>
         <div>
@@ -57,8 +51,9 @@
         <div>
             <h3>Social Media</h3>
             <div>
-                <a href="https://british-caving.org.uk/">sopcials medaid</a><br>
-                <a href="https://checc.org/">Council of facebook</a>
+                <a href="https://british-caving.org.uk/">Instagram</a><br>
+                <a href="https://checc.org/">Memes Page</a>
+                <a href=""></a>
             </div>
         </div>
     </footer>
