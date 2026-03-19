@@ -151,9 +151,9 @@ footer{
     background-color: #3c3836;
     border-top: #8f3f71 0.3rem solid;
     border-radius: 0.2rem;
-    font-size: 1vh;
+    font-size: clamp(2.5vw, 1rem, 1rem);
     line-height: 1.2;
-    
+    font-size: 1rem;
 }
 
 footer div{
