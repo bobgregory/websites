@@ -62,7 +62,7 @@
                 [http.routers.biumbe.tls]
                         certResolver = "le-web"
 
-        [http.routers.bangorcaving.club]
+        [http.routers.bangorcavingclub]
                 entrypoints = ["websecure","web"]
                 rule = "Host(`bangorcaving.club`) || Host(`www.bangorcaving.club`)"
                 service = "nginx"
