@@ -6,10 +6,11 @@ body {
     min-width: 60%, min-content;
     place-items: center;
     font-family: "Inter var", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2vh;
+    line-height: 145%;
     background-color: #3c3836;
     color: #ebdbb2;
 }
-
 
 a {
     color: #ebdbb2;
@@ -17,14 +18,14 @@ a {
 }
 
 .topbar{
+    font-size: 1.3vh;
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
     height: 10rem, min-content;
     color: #ebdbb2;
     justify-content: center;
-    
-    
+    line-height: normal;    
 }
 
 header{
@@ -119,7 +120,6 @@ main {
     align-content: flex-start;
     border-top: #8f3f71 0.3rem solid;
     border-radius: 0.2rem;
-    line-height: 1rem;
     margin-bottom: 30vh;
 }
 
@@ -135,6 +135,7 @@ main div {
 main iframe{
     max-height: 70vh;
     aspect-ratio: 1.4;
+    zoom: 110%;
 }
 
 
@@ -145,20 +146,19 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
     bottom: 0rem;
     height: min-content;
-    font-size: 1rem;
     background-color: #3c3836;
     border-top: #8f3f71 0.3rem solid;
     border-radius: 0.2rem;
-    line-height: 1.2rem;
+    font-size: 1vh;
+    line-height: 1.2;
+    
 }
 
 footer div{
     margin: 0.2rem 1rem 0.7rem 1rem;
     text-align: center;
-    
 }
 
 footer h3{
@@ -166,5 +166,5 @@ footer h3{
 }
 
 footer a{
-    
+    overflow: visible;
 }

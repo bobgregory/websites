@@ -12373,7 +12373,7 @@ body.Defj0e .GuKFM.google-material-icons-filled {
 .wZEs1c.w9eXqe,
 .DvyQhe.w9eXqe {
   text-decoration:line-through;
-  font-weight:400
+  font-weight:400;
 }
 .GuKFM {
   -webkit-box-flex:0;
@@ -12919,9 +12919,11 @@ body.Defj0e .GuKFM.google-material-icons-filled {
 .MGaLHf:last-child {
   border-right:none
 }
+
+
 .w48V4c {
   margin-top:8px;
-  font-size:12px;
+  font-size:4vh;/* size of day numbers*/
   font-weight:500;
   letter-spacing:.3px;
   display:inline-block;
@@ -14780,7 +14782,7 @@ body.Defj0e .nSCxEf.F262Ye.Kijpff {
 }
 .WXetne .UyW9db,
 .WXetne .rBpBVc {
-  font-size:18px
+  font-size: 4.1vh; /*font size of month and year*/
 }
 .GI19hf,
 .Q7yWH,
@@ -20683,6 +20685,9 @@ sentinel {
 
 * {
     font-family: "Inter var", "Helvetica Neue", Helvetica, sans-serif;
-    font-weight: 300;
+    font-weight: 600;
+    font-size: 100%;
     color: #ebdbb2;
+    font-optical-sizing: auto;
+    overflow: visible;
 }
