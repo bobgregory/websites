@@ -22,6 +22,7 @@
             <h2>About us</h2>
             <p1>
                 Lorem Ipsum this is still lacking content<br> the layout is done and adding content will not be hard<br>
+
                 
             </p1>
         </div>
