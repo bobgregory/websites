@@ -22,9 +22,14 @@
         <div>
             <h2>About us</h2>
             <p1>
-                Lorem Ipsum this is still lacking content<br> the layout is done and adding content will not be hard<br>
-
-                
+                The Bangor student Caving Club was re-established in 2020. We
+                run monthly(ish) weekend away trips to various caving regions like
+                the Peaks, Yorkshire dales, south Wales and occasionally more.<br><br>
+                Hosting regular thursday socials at the Harp Inn in Bangor, day trips to local mines and caves, and Tree based rope training sessions.
+                <br><br>
+                Details on joining can be found in the Join Us section,
+                <br><br>
+                Dig deep and stay dirty.
             </p1>
         </div>
 
