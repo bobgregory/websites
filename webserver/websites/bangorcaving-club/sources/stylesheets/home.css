@@ -1,0 +1,13 @@
+main iframe{
+    max-height: 70vh;
+    aspect-ratio: 1.4;
+    zoom: 110%;
+}
+
+#home{
+    background-color: #b57614;
+}
+
+#home:hover{
+    background-color: #8f3f71;
+}

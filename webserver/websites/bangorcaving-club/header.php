@@ -7,16 +7,20 @@
         </header>
 
         <nav>
-            <a href="./">Home</a>
-            <div class="dropdown">
+            <a href="./" id="home">
+                Home
+            </a>
+
+            <div class="dropdown" id="club">
                 The Club
                 <div class="dropdown-content">
-                <a href="committee">Committee</a>
-                <a href="construction">More to </a>  <!--gallery-->
-                <a href="construction">come soon</a> <!--history-->
+                <a href="committee"    class="club" id="committee">Committee</a>
+                <a href="construction" class="club"               >More to</a>  <!--gallery-->
+                <a href="construction" class="club"               >come soon</a> <!--history-->
                 </div>
             </div>
-            <div class="dropdown">
+
+            <div class="dropdown" id="resouces">
                 Resources
                 <div class="dropdown-content">
                 <a href="construction">Things!</a>
@@ -24,6 +28,18 @@
                 <a href="construction">to finish</a>
                 </div>
             </div>
-            <a href="join">Join Us</a>
+
+            <a href="join" id="join">
+                Join Us
+            </a>
         </nav>
+        <script>
+            const currentPath = window.location.pathname;
+            const navLinks = document.querySelectorAll('nav ul li a');
+            navLinks.forEach(link => {
+            if (link.getAttribute('href') === currentPath) {
+                link.parentElement.classList.add('active');
+            }
+            });
+        </script>
 </div>

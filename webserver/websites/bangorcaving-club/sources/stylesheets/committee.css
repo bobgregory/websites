@@ -7,3 +7,12 @@ main div img{
     margin-top: 1rem;
     border-radius: 1rem;
 }
+
+#club, #committee{
+    background-color: #b57614;
+}
+
+#club:hover, 
+#committee:hover{
+    background-color: #8f3f71;
+}

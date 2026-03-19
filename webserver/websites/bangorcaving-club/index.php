@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="sources/stylesheets/main.css">
     <link rel="stylesheet" href="sources/stylesheets/hgal.css">
+    <link rel="stylesheet" href="sources/stylesheets/home.css">
 </head>
 
 <body>

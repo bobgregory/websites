@@ -5,6 +5,7 @@
     </title>
     <link rel="icon" href="sources/icon256.png">
     <link rel="stylesheet" href="sources/stylesheets/main.css">
+    <link rel="stylesheet" href="sources/stylesheets/join.css">
 
 
 

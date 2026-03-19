@@ -110,7 +110,6 @@ nav a:hover{
     display: block;
 }
 
-
 main {
     display: flex;
     flex-direction: row;
@@ -129,13 +128,6 @@ main div {
     height: max-content;
     max-height: 70vh;
     aspect-ratio: 1.2;
-}
-
-
-main iframe{
-    max-height: 70vh;
-    aspect-ratio: 1.4;
-    zoom: 110%;
 }
 
 
