@@ -43,7 +43,7 @@
             }
             }
             ?>
-            <p1><br>yes these are placeholders<br> if people want to find nice photos in the drive and <br>put them in the album "website pics"</p1>
+            <p1><br>Yes these are placeholders<br> If people want to find nice photos in the drive and <br>put them in the album "website pics"</p1>
         </div>
 
     </main>
