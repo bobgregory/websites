@@ -12,18 +12,18 @@
                 The Club
                 <div class="dropdown-content">
                 <a href="committee">Committee</a>
-                <a href="construction">Gallery</a>
-                <a href="construction">History</a>
+                <a href="construction">More to </a>  <!--gallery-->
+                <a href="construction">come soon</a> <!--history-->
                 </div>
             </div>
             <div class="dropdown">
                 Resources
                 <div class="dropdown-content">
-                <a href="construction">Welfare</a>
-                <a href="construction">..I have yet</a>
+                <a href="construction">Things!</a>
+                <a href="construction">..I have yet</a> <!--idk other stuff-->
                 <a href="construction">to finish</a>
                 </div>
             </div>
-            <a href="construction">Join Us</a>
+            <a href="join">Join Us</a>
         </nav>
 </div>
