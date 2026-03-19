@@ -7,7 +7,7 @@
         </header>
 
         <nav>
-            <a href="">Home</a>
+            <a href="./">Home</a>
             <div class="dropdown">
                 The Club
                 <div class="dropdown-content">
