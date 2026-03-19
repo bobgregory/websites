@@ -17,7 +17,7 @@ $content = file_get_contents('https://calendar.google.com/calendar/embed?height=
 $content = str_replace('</title>', '</title><base href="https://calendar.google.com/calendar/" />', $content);
 
 // Inject custom CSS by replacing the closing </head> tag
-$customCss = '<link rel="stylesheet" href="http://switt.net/sources/stylesheets/cal.css" />';
+$customCss = '<link rel="stylesheet" href="https://switt.net/sources/stylesheets/cal.css" />';
 $content = str_replace('</head>', $customCss . '</head>', $content);
 
 echo $content;
