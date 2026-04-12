@@ -2,7 +2,7 @@
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffe6fc;
+    background-color: #dfa0aa;
 }
 
 .header{
@@ -85,6 +85,16 @@ pre{
         opacity: 1;
     }
 }
+
+/*
+brown 845f4a 
+ligher brown/grey b9ac8c
+eggshell f0eddc
+pink dfa0aa
+*/
+
+
+
 
 
 /*a:link {
