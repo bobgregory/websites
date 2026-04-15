@@ -12,7 +12,7 @@
                 entrypoints = ["websecure","web"]
                 rule = "Host(`photos.jamesgregory.net`)"
                 service = "photos"
-                middlewares = ["redirectscheme","serverheader","error-pages"]
+                middlewares = ["redirectscheme","serverheader","error-pages-500"]
                 priority = 10
                 [http.routers.photos.tls]
                         certResolver = "le-web"
