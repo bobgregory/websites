@@ -1,20 +1,31 @@
-body{
-    background-color: black;
-}
-.shelf-container {
-  position: relative;
-  max-width: 1100px;
-  aspect-ratio: 3 / 2; /* matches your 1079x720 image */
-  background: url(../../sources/images/headlights/frozenuponentry.jpg)center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin: 0 auto;
+.page{
+  background-color: #f0eddc ;
+  padding-top: 10px;
+  padding-left:  60px;
+  padding-right: 60px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1000px 300px;
 }
 
-.shelf-grid {
-  position: absolute;
-  inset: 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3,1fr);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+brown 845f4a 
+ligher brown/grey b9ac8c
+eggshell f0eddc
+pink dfa0aa
+*/
