@@ -1,4 +1,6 @@
 main div{
+    flex-direction: row;
+    flex-wrap: wrap;
     margin-bottom: 3rem;
     margin-top: 3rem;
 }
