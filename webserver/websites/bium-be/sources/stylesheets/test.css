@@ -1,28 +1,34 @@
-.page{
-  background-color: #f0eddc ;
-  padding-top: 10px;
-  padding-left:  60px;
-  padding-right: 60px;
+
+body  {
+      background: url("../../sources/images/dots.png") repeat;
+}
+
+.container {
   display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: 1000px 300px;
+  grid-template-columns: 25% auto;
+}
+
+.container div {
+  border: 2px solid red;
+  padding-top: 30px;
+  padding-right: 20px;
+  text-align: center;
 }
 
 
 
 
 
+    #fabric {
+        padding-left:20px ;
+        width:  600px; 
+      }
 
 
 
 
 
-
-
-
-
-
-
+      
 /*
 brown 845f4a 
 ligher brown/grey b9ac8c
