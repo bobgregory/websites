@@ -20,13 +20,13 @@
             <img src="sources/committee/president.png"   onerror="if (this.src != 'sources/committee/blank.png') this.src = 'sources/committee/blank.png';">
         </div>          
         <div>
-            <h2>Secretary - Janak Subberwal</h2>
+            <h2>Secretary & Training - Janak Subberwal</h2>
             <p1>Flood insurance for tents mandatory</p1>
             <img src="sources/committee/secretary.png"  onerror="if (this.src != 'sources/committee/blank.png') this.src = 'sources/committee/blank.png';">
         </div>
         <div>
             <h2>Treasurer - Osian Griffith</h2>
-            <p1>Flavour text goes here</p1>
+            <p1>Flavour cooked here</p1>
             <img src="sources/committee/treasurer.png"    onerror="if (this.src != 'sources/committee/blank.png') this.src = 'sources/committee/blank.png';">
         </div>
         <div>
@@ -35,24 +35,14 @@
             <img src="sources/committee/tackle.png"    onerror="if (this.src != 'sources/committee/blank.png') this.src = 'sources/committee/blank.png';">
         </div>
         <div>
-            <h2>Welfare - Ciara</h2>
-            <p1>Still Colins hairdresser?</p1>
-            <img src="sources/committee/welfare.png"    onerror="if (this.src != 'sources/committee/blank.png') this.src = 'sources/committee/blank.png';">
-        </div>
-        <div>
             <h2>Social Media - Ewan Gray</h2>
-            <p1>Nepo Caver from the red rose</p1>
+            <p1></p1>
             <img src="sources/committee/media.png"    onerror="if (this.src != 'sources/committee/blank.png') this.src = 'sources/committee/blank.png';">
         </div>
         <div>
-            <h2>Whimsy - Elias Curtis-Monro</h2>
+            <h2>Welfare & Whimsy - Elias Curtis-Monro</h2>
             <p1>Go to kebaby, bring mozzerella sticks, for your whimsical leader</p1>
             <img src="sources/committee/social.png"    onerror="if (this.src != 'sources/committee/blank.png') this.src = 'sources/committee/blank.png';">
-        </div>
-        <div>
-            <h2>Training - Janak Subberal</h2>
-            <p1>Underground, overground wombling free</p1>
-            <img src="sources/committee/training.png"    onerror="if (this.src != 'sources/committee/blank.png') this.src = 'sources/committee/blank.png';">
         </div>
         <div>
             <h2>Webmaster - James Gregory</h2>

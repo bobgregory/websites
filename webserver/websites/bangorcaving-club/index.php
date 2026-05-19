@@ -5,6 +5,14 @@
     </title>
     <link rel="icon" href="sources/icon256.png">
 
+    <meta name="description" content="re-established in 2020. We
+                run monthly(ish) weekend away trips to various caving regions like
+                the Peaks, Yorkshire dales, south Wales and occasionally more.
+                Hosting regular thursday socials at the Harp Inn in Bangor, day trips to local mines and caves, and Tree based rope training sessions."/>
+    <meta property="og:title" content="Homepage"/>
+    <meta property="og:url" content="https://bangorcaving.club"/>
+    <meta property="og:image" content="https://bangorcaving.club/sources/icon356.png"/>
+
     <link rel="stylesheet" href="sources/stylesheets/main.css">
     <link rel="stylesheet" href="sources/stylesheets/hgal.css">
     <link rel="stylesheet" href="sources/stylesheets/home.css">
