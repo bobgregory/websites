@@ -59,22 +59,10 @@ body {
     font-size: 26px;
 }
 
-/* added css specific for PRE since im using
-this for any poetry additions (or fish teir lists rn).
-currently styled the same as small-text but here
-for future use*/
-pre{
-    color: #000000;
-    opacity: 0;
-    animation: fadeInAnimation 0.1s ease 0.05s;
-    animation-fill-mode: forwards;
-    padding: 0px 0px 0px 1%;
-    position: static;
-    z-index: 2;
-    margin-top: 1px;
-    margin-left: 8%;
-    margin-bottom: 1%;
-}
+
+
+
+
 
 
 @keyframes fadeInAnimation {

@@ -22,6 +22,7 @@ body  {
 
 
   }
+
   .main{
   background: url("../../sources/images/home/paper.png") no-repeat right;
   background-size: 600px 806px;
@@ -101,6 +102,16 @@ body  {
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 80% 20%;
           }
+
+          .todo{
+            grid-area:1/1/2/4 ;
+            background: url("../../sources/images/home/greenrec.png" );
+            background-repeat: no-repeat;
+            background-size:390px 225px;
+
+          }
+
+
           .scrolling {
             grid-area: 2/1/3/4;
           }
