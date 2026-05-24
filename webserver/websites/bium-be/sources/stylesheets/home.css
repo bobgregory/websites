@@ -1,11 +1,14 @@
 
 body  {
-      background: url("../../sources/images/backgrounds/pinkbg.png") repeat;
-      display: grid;
-      justify-items: center;
+      background:url("../../sources/images/home/musicribbon2.psd.png"), url("../../sources/images/backgrounds/pinkbg.png");
+        background-repeat: no-repeat, repeat;
+        background-size: 100px, auto;
+
+        display: grid;
+        justify-items: center;
 }
 .page {
-  padding-top: 10px;
+  padding-top: 20px;
     padding-left:  60px;
     padding-right: 40px;
     display: grid;
@@ -17,9 +20,21 @@ body  {
 
 
   .left {
-
+    border: 3px solid #845f4a;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 1fr 1fr 1fr;
   }
 
+  .left div{
+    border: 3px solid #b9ac8c;
+  }
+
+  .ascii{
+    grid-area:3/1/3/3;
+    padding-left: 40px;
+  }
+  
   .main{
   background: url("../../sources/images/home/paper.png") no-repeat right;
   background-size: 600px 650px;
