@@ -75,12 +75,15 @@ body  {
           grid-area: 1/1/1/3;
           display: grid;
           grid-template-rows: 20% 80%;
-          margin-top: 40px;
           text-align: center;
           }
 
+          .navbuttons{
+            padding-top: 20px;
+          }
 
         .button{
+
           background-color:#b9ac8c;
           color: #f0eddc;
           text-align: center;
@@ -108,8 +111,20 @@ body  {
             background: url("../../sources/images/home/greenrec.png" );
             background-repeat: no-repeat;
             background-size:390px 225px;
-
           }
+              .formcontroll{
+                text-align: left;
+                padding-top: 65px;
+                padding-left: 60px;
+                font-size: 20px;
+                line-height: 0.64;
+                color:;
+                display: grid;
+                grid-template-columns: 1em auto;
+                gap: 10px;
+                appearance: none;
+                accent-color: #845f4a;
+                }
 
 
           .scrolling {
