@@ -71,6 +71,17 @@ body  {
             grid-template-rows: 220px 35px;
           }
 
+          .camera{
+            padding-top: 30px;  
+            padding-left: 38px;
+          }
+          #camera{
+            width:  324px;
+            height: 182px;
+            border-radius: 16px;
+/* 1,200 × 675    400 x 225*/
+          }
+
           .scrolling {
             grid-area: 2/1/3/4;
           }
