@@ -1,0 +1,69 @@
+body  {
+      background:url("../../sources/images/home/musicribbon2.psd.png"), url("../../sources/images/backgrounds/pinkbg.png");
+        background-repeat: no-repeat, repeat;
+        background-size: 100px, auto;
+
+        display: grid;
+        justify-items: center;
+        font-family: "Byte";
+        font-size: 20px;
+        margin: 0;
+}
+
+.container {
+    padding-top: 30px;
+    padding-left:  60px;
+    padding-right: 40px;
+}
+
+    .main{ 
+        display: grid;
+        grid-template-columns: 500px 250px;
+        background-color: whitesmoke;
+        padding: 10px;
+    }
+    .main div{
+
+    }
+        
+        .txtbox {
+            background-color: white; 
+            border-radius: 5px;
+        }
+            .boxheader {
+                background: linear-gradient(to bottom, white 1%, #dfa0aa 49%, #dfa0aa 51%, white 100%);
+                border-bottom: 1px solid #845f4a;
+                padding: 2px;
+                text-align: center;
+                border-radius: 5px;
+            }
+           
+            .txt{
+                padding: 6px;
+                font-size: 17px;
+                border: 1px solid #845f4a;
+                text-align: center;
+                border-radius: 4px;
+            }
+        
+        
+        .sitemap{
+            background-color: white;
+            border: 1px solid #845f4a;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+            .smheader{
+                background: url("../../sources/images/backgrounds/tinydots.gif" );
+                border-bottom: 1px solid black;
+                padding: 2px;
+                padding-left: 8px;
+                padding-right: 8px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            
+
+            
