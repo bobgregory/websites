@@ -93,6 +93,19 @@ body {
     height: 25px;
 }
 
+.heart:hover {
+  transition: all 0.5s;
+  -webkit-mask-image: url(https://dl.dropbox.com/s/2kih8ox9q2czjeg/pngfind.com-kawaii-transparent-png-621355.png);
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+}
+
+
+
+
+
+
 
 /*
 brown 845f4a 
