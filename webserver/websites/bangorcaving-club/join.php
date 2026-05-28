@@ -44,7 +44,7 @@
         <div>
             <h2>Still under construction</h2>
             <p1>
-                This page will look nicer and have more things soon, I'm writing this page content just so its not empty and its like 2am
+                This page will look nicer and have more things soon, I'm writing this page content just so its not empty and its like 2am...
             </p1>
             <img src="sources/ConstructionStig.png" style="height:25rem">
         </div>  
