@@ -20,11 +20,10 @@ body  {
     .main{ 
         display: grid;
         grid-template-columns: 500px 250px;
-        background-color: #;
+        background-color: #dfa0aa80;
         padding: 10px;
     }
-    .main div{
-    }
+
         
         .txtbox {
             background-color: white; 
@@ -46,8 +45,14 @@ body  {
                 text-align: center;
                 border-radius: 4px;
                 color: #845f4a;
-
             }
+
+            #homebutton{
+                padding-top: 10px;
+                height: 95px;
+            }
+
+
         
         
         .sitemap{
@@ -56,6 +61,7 @@ body  {
             border-radius: 4px;
             margin-right: 10px;
             color: #845f4a;
+            padding-bottom: 20px;
         }
             .smheader{
                 background: url("../../sources/images/backgrounds/tinydots.gif" );
