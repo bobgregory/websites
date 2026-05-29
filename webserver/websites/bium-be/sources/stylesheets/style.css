@@ -59,7 +59,9 @@ body {
     font-size: 26px;
 }
 
-
+a {
+    text-decoration: none;
+}
 
 
 
@@ -92,6 +94,14 @@ body {
     width: 188px;
     height: 25px;
 }
+
+#smallPixel {
+    height: 23px;
+    padding-left: 3px;
+}
+
+
+
 
 .heart:hover {
   transition: all 0.5s;
