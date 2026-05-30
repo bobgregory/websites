@@ -30,7 +30,7 @@ body  {
             border-radius: 5px;
         }
             .boxheader {
-                background: linear-gradient(to bottom, white 1%, #dfa0aa 49%, #dfa0aa 51%, white 100%);
+                background: linear-gradient(to bottom, white 1%, #bc91c4 49%, #bc91c4 51%, white 100%);
                 border-bottom: 1px solid #845f4a;
                 padding: 2px;
                 text-align: center;
@@ -50,6 +50,10 @@ body  {
             #homebutton{
                 padding-top: 10px;
                 height: 95px;
+            }
+            .homebutton{
+                font-size: 15px;
+                color: #845f4a;
             }
 
 
