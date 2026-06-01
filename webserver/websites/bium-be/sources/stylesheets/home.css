@@ -17,23 +17,24 @@ body  {
 }
 
   .left {
-    border: 3px solid #845f4a;
+    /*border: 3px solid #845f4a; */
     display: grid;
     grid-template-columns: 45%;
     grid-template-rows: 200px 65px 85px 50px auto;
   }
 
         .left div{
-          border: 3px solid #b9ac8c;
+          /*border: 3px solid #b9ac8c; */
         }
 
 
         .fanlistings{
-          padding-left: 4px;
+          padding-left: 13px;
           color: #845f4a;
         }
         .fanlist{
-          padding: 4px;
+          padding-left: 7px;
+          padding-top: 4px;
           background: #93617d30;
           transition: all, .5s;
           -moz-transition: all, .5s;
@@ -50,8 +51,8 @@ body  {
           grid-template-columns: 64% 30%;
         }
         .badge1{
-          padding-top: 7px;
-          padding-left: 10px;
+          padding-top: 5px;
+          padding-left: 16px;
         }
         #badge1{
           width: 65px;
