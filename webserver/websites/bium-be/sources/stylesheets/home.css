@@ -20,7 +20,7 @@ body  {
     border: 3px solid #845f4a;
     display: grid;
     grid-template-columns: 45%;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 200px 65px 85px 50px auto;
   }
 
         .left div{
@@ -44,8 +44,49 @@ body  {
         transition: all, .5s;
         -moz-transition: all, .5s;
         -webkit-transition: all, .5s;}
+
+        .badges{
+          display: grid;
+          grid-template-columns: 64% 30%;
+        }
+        .badge1{
+          padding-top: 7px;
+          padding-left: 10px;
+        }
+        #badge1{
+          width: 65px;
+          animation: spin 5s;
+          animation-iteration-count: infinite;
+          animation-timing-function: linear;
+          padding-top: 10px;
+        }        
+        
+        .badge2{
+          padding-left: 2px;
+        }
+        #badge2{
+          width: 45px;
+          animation: spin 12s;
+          animation-iteration-count: infinite;
+          animation-timing-function: linear;
+        }
+
+
+
+        @keyframes spin {
+          from {transform:rotate(0deg);}
+          to {transform:rotate(360deg);}
+          
+
+        }
+        
+        .incompetence{
+          grid-area:4/1/4/3 ;
+          padding-left: 20px;
+          padding-top: 3px;
+        }
           .ascii{
-          grid-area:3/1/3/3;
+          grid-area:5/1/5/3;
           padding-left: 40px;
         }
 
@@ -181,6 +222,25 @@ body  {
           padding-left: 120px;
           height: 200px;
         }
+        .fabricphotos1 div{
+          padding: 4px;
+          /*border: 3px solid #b9ac8c;  sort out formatting and things for this next*/ }
+
+        .pochaco{
+          margin-right: 30px;   
+        }
+        #pochaco{
+          width: 50px;
+          float: right;
+        }
+
+
+
+
+
+
+
+
         .kitty{
           grid-area: 3/3;
           padding-top: 87px;
@@ -219,3 +279,4 @@ pink dfa0aa
   height: 100px;
   float: right;
 }
+
