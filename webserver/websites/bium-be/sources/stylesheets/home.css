@@ -46,6 +46,23 @@ body  {
         -moz-transition: all, .5s;
         -webkit-transition: all, .5s;}
 
+
+        .box1 {
+          margin: auto;
+          width: fit-content;
+  height: fit-content;
+  background-color: #f0eddc;
+      background-size: auto;
+  padding: 9px;
+  border-radius: 8px;
+  border: 2px groove white;
+  background-size: 100px;
+        }
+
+
+
+
+
         .badges{
           display: grid;
           grid-template-columns: 64% 30%;

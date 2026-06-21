@@ -116,19 +116,46 @@ a {
 
 
 
+.glow {
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+
+#melonGuild-34{
+    background:  #07f2ff; //miku teal
+    background-size: cover;
+    color: black;
+    }
+    
+#melonGuild-34 .melonGuild-info{
+    margin-left: .125em;
+    margin-right: .125em;}
+    
+#melonGuild-34 .melonGuild-links img{
+    border-radius: 50px;
+    border: .125em solid #ff50a8;
+    }
+
+
 
 /*
 brown 845f4a 
 ligher brown/grey b9ac8c
 eggshell f0eddc
 pink dfa0aa
-*/
 
 
-
-
-
-/*a:link {
+a:link {
   color: pink;
   text-decoration: none;
 }
