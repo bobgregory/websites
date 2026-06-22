@@ -2,7 +2,10 @@
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #dfa0aa;
+    background:url("../../sources/images/home/musicribbon2.psd.png"), url("../../sources/images/backgrounds/pinkbg.png");  
+    background-repeat: no-repeat, repeat;
+    background-size: 100px, auto;
+
 }
 
 .header{
@@ -103,7 +106,6 @@ a {
 
 
 
-
 .heart:hover {
   transition: all 0.5s;
   -webkit-mask-image: url(https://dl.dropbox.com/s/2kih8ox9q2czjeg/pngfind.com-kawaii-transparent-png-621355.png);
@@ -123,7 +125,7 @@ a {
   animation: glow 1s ease-in-out infinite alternate;
 }
 
-@-webkit-keyframes glow {
+@-webkit-keyframes glow {}
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
   }
@@ -137,20 +139,21 @@ a {
 brown 845f4a 
 ligher brown/grey b9ac8c
 eggshell f0eddc
-pink dfa0aa
+pink dfa0aa  */
 
-
+/*
 a:link {
   color: pink;
   text-decoration: none;
 }
+
 a:visited {
   color: rgb(248, 176, 217);
   text-decoration: none;
 }
+
 a:hover {
   color: rgb(255, 176, 217);
   text-decoration: none;
 }
-  gonna copy this into a pages css when i need it later
 */

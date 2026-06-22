@@ -1,0 +1,117 @@
+body  {
+        display: grid;
+        justify-items: center;
+}
+
+
+.container {
+    padding-top: 30px;
+    padding-left:  60px;
+    padding-right: 40px;
+}
+
+    .main{ 
+        display: grid;
+        grid-template-columns: 500px 250px;
+        background-color: #dfa0aa80;
+        padding: 10px;
+    }
+
+        
+        .txtbox {
+            background-color: white; 
+            border-radius: 5px;
+        }
+            .boxheader {
+                border-bottom: 1px solid #845f4a;
+                padding: 3px;
+                text-align: center;
+                border-radius: 5px;
+                color: #dfa0aa80;
+                font-weight: 1000;
+                font-size: 20px;
+            }
+           
+            .txt{
+                padding: 6px;
+                font-size: 17px;
+                border: 1px solid #845f4a;
+                text-align: center;
+                border-radius: 4px;
+                color: #845f4a;
+            }
+
+            #homebutton{
+                padding-top: 10px;
+                height: 95px;
+            }
+            .homebutton{
+                font-size: 15px;
+                color: #845f4a;
+            }
+
+
+        
+        
+        .resources{
+            background-color: white;
+            border: 1px solid #845f4a;
+            border-radius: 4px;
+            margin-right: 10px;
+            color: #845f4a;
+            padding-bottom: 20px;
+        }
+            .reheader{
+                background: url("../../sources/images/backgrounds/tinydots.gif" );
+                border-bottom: 1px solid black;
+                padding: 2px;
+                padding-left: 8px;
+                padding-right: 8px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 22px;
+            }
+            a.link{
+                font-size: 22px;
+                color: #845f4a;;
+            }
+
+            .resubheader{
+                background: url("../../sources/images/backgrounds/tinydots.gif" );
+                border: 1px dotted black;
+                padding: 4px;
+                margin: 5px;
+                font-size: 18px;
+            }
+            a.smallerlink{
+                font-size: 18px;
+                color: #845f4a;
+            }
+
+                .description{
+                    margin-right: 5px;
+                    margin-left: 20px;
+                    padding: px;
+                    padding-left: 35px;
+                    border-left: 1px dotted black;
+                    font-size: 16px;
+                    color: #b9ac8c;
+                }
+
+
+            .list{
+            margin-right: 5px;
+            margin-left: 20px;
+            padding: 5px;
+            padding-left: 15px;
+            border-left: 1px dotted black;
+            }
+
+            
+#divider{
+width: 230px;
+padding-top: 10px;
+padding-bottom:2px;
+}
+            
