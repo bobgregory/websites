@@ -24,7 +24,7 @@ body  {
   }
 
         .left div{
-          /*border: 3px solid #b9ac8c; */
+         /*border: 3px solid #b9ac8c; */
         }
 
 
@@ -81,12 +81,18 @@ body  {
         
         .badge2{
           padding-left: 2px;
+           display: grid;
+           grid-template-rows: 64% 30%;
         }
         #badge2{
           width: 45px;
           animation: spin 12s;
           animation-iteration-count: infinite;
           animation-timing-function: linear;
+        }
+
+        #mood {
+
         }
 
 
