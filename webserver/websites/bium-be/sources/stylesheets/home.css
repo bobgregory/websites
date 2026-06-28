@@ -254,12 +254,16 @@ body  {
           /* border: 3px solid purple; */
         }
         .pochaco{
-          margin-top: 45px;   
+          margin-top: 8px;   
           
         }
         #pochaco{
           width: 50px;
           float: right;
+        }
+        .angelicpretty{
+          margin-top: 27px;
+          margin-left: 20px;
         }
 
           .webringsbox{ 
@@ -330,10 +334,10 @@ body  {
 
         .noticeboard{
           border-bottom: dashed 2.2px #b9ac8c;
-          margin-bottom: 10px;
+          padding-bottom: 2px;
           margin-top: -3px;
           color: #845f4a;
-          font-size: 19px;
+          font-size: 17px;
         }
 
         #nb{
@@ -350,7 +354,7 @@ body  {
         }
         #divider{
           width: 410px;
-          padding-bottom: 10px;
+          padding-bottom: 6px;
         }
 
         .date{
@@ -363,13 +367,11 @@ body  {
 
 
 
-
-
         .kitty{
-          grid-area: 3/3;
-          padding-top: 87px;
-          padding-right: 16px;
+          padding-left: 400px;
+          padding-top: 14px;
         }
+
 
         .fourtwo{
           height:100px
@@ -401,6 +403,8 @@ pink dfa0aa
 }
 #cat {
   height: 100px;
-  float: right;
+}
+#ap{
+  height: 125px;
 }
 
