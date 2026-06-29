@@ -70,7 +70,7 @@ body {
     margin-right: 40px;
     height: auto;
     display: grid;
-    grid-template-rows: 20px 300px 20px;
+    grid-template-rows: 20px 400px 20px;
     color: #90481B ;
 }
 .mainstuff div {
@@ -80,20 +80,20 @@ body {
 
 
 #border {
-    width: 600px;
+    width: 900px;
     
 }
 
-.info{
-    background-color: #ffc5c9;
-    display: grid;
-    padding: 10px;
+    .info{
+        background-color: #ffc5c9;
+        display: grid;
+        padding: 10px;
 
-}
-.center div{
-    border: 1px solid #90481B;
-}
+    }
+    .center div{
+        border: 1px solid #90481B;
+    }
 
-.welcometext{
-    
-}
+    .welcometext{
+        
+    }
