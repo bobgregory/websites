@@ -1,3 +1,99 @@
 body {
-    background: url("../../sources/images/egl/wrap-bottom-bg.png") repeat-x center bottom, url(../../sources/images/egl/wrap-top-bg.png) repeat-x center top, url(../../sources/images/egl/belle_journee_bg.jpg) repeat center top;
+    background: url(../../sources/images/egl/wrap-top-bg.png) repeat-x center top, url(../../sources/images/egl/belle_journee_bg.jpg) repeat center top;
+    background:url("../../sources/images/egl/wrap-top-bg.png"), url("../../sources/images/egl/belle_journee_bg.jpg");  
+    background-repeat: repeat-x, repeat;
+    background-size:auto, auto;
+    display: grid;
+    justify-items: center;
+    margin: 15px;
+    
+
+}
+
+.topstuff{
+    height: 190px;
+    width:100%;
+    display: grid;
+    grid-template-columns: 105px auto 105px ;
+}
+
+.topstuff div{
+    /*border: 1px solid #845f4a; */
+    text-align: center;
+}
+
+    .leftbunny{
+        display: grid;
+        grid-template-rows: 38px auto;
+    }
+    .rightbunny{
+        display: grid;
+        grid-template-rows: 41px auto;
+    }
+    #bunny{
+        height: 100px;
+    }
+
+
+    .nav{
+        display: grid;
+        grid-template-rows: 100px auto ;
+        
+
+    }
+
+          .navbuttons{
+            padding-top: 10px;
+          }
+
+        .button{
+          background-color:#f0b4be;
+          color: #f0eddc;
+          text-align: center;
+          text-decoration: none;
+          font-size: 15px;
+          padding: 8px 10px;
+          border-radius: 8px;
+          cursor: pointer;
+          border: 2px solid #dfa0aa;
+          font-weight: 800;
+        }
+
+        .button:hover {
+          background-color: #dfa0aa;
+        }    
+
+
+.mainstuff{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: auto;
+    display: grid;
+    grid-template-rows: 20px 300px 20px;
+    color: #90481B ;
+}
+.mainstuff div {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+}
+
+
+#border {
+    width: 600px;
+    
+}
+
+.info{
+    background-color: #ffc5c9;
+    display: grid;
+    padding: 10px;
+
+}
+.center div{
+    border: 1px solid #90481B;
+}
+
+.welcometext{
+    
 }

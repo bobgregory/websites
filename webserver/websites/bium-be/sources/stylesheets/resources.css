@@ -1,6 +1,10 @@
 body  {
         display: grid;
         justify-items: center;
+        background:url("../../sources/images/home/musicribbon2.psd.png"), url("../../sources/images/backgrounds/pinkbg.png");  
+        background-repeat: no-repeat, repeat;
+        background-size: 100px, auto;
+
 }
 
 

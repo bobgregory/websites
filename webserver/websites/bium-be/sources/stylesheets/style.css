@@ -2,10 +2,6 @@
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    background:url("../../sources/images/home/musicribbon2.psd.png"), url("../../sources/images/backgrounds/pinkbg.png");  
-    background-repeat: no-repeat, repeat;
-    background-size: 100px, auto;
-
 }
 
 .header{
@@ -33,6 +29,8 @@ body {
     
 }
 
+/* i got rid of this and nothing changed.. i dont think im using it.
+but shes staying here in tags for a bit just incase
 
 .nav{
     opacity: 0;
@@ -44,12 +42,12 @@ body {
     z-index: 2;
     margin-top: 1px;
     margin-left: 8%;
-    overflow: hidden; /* decides what happens when content dosnt fit on page */
+    overflow: hidden;
 }
 
 .nav a {
     float: left;
-    color: #000000; /* dunno if you want this to be this colour, if this line is removed it will fallback to your style.css*/
+    color: #000000;
     min-width: 128px;
     min-height: 45px;
     text-align: center;
@@ -66,8 +64,7 @@ a {
     text-decoration: none;
 }
 
-
-
+*/
 
 
 @keyframes fadeInAnimation {
@@ -139,7 +136,10 @@ a {
 brown 845f4a 
 ligher brown/grey b9ac8c
 eggshell f0eddc
-pink dfa0aa  */
+pink dfa0aa  
+
+"visually distinct"? brown 90481B
+*/
 
 /*
 a:link {
