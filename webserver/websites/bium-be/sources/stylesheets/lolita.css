@@ -1,0 +1,3 @@
+body {
+    background: url("../../sources/images/egl/wrap-bottom-bg.png") repeat-x center bottom, url(../../sources/images/egl/wrap-top-bg.png) repeat-x center top, url(../../sources/images/egl/belle_journee_bg.jpg) repeat center top;
+}

@@ -1,9 +1,6 @@
 
 body  {
-      background:url("../../sources/images/home/musicribbon2.psd.png"), url("../../sources/images/backgrounds/pinkbg.png");
         background-repeat: no-repeat, repeat;
-        background-size: 100px, auto;
-
         display: grid;
         justify-items: center;
 }
@@ -289,7 +286,6 @@ body  {
           display:grid;
           grid-template-rows: auto;
           scrollbar-color: pink #dfa0aa;
-          scrollbar-width: thin;
           overflow-x: hidden;
         }
 
