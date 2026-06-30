@@ -60,21 +60,47 @@ body {
         .button:hover {
           background-color: #dfa0aa;
         }    
-
+       
 .box{
     display: grid;
     grid-template-columns: 100px 1000px 100px
 }
+
+.lmargin{
+    display: grid;
+    grid-template-rows: 100px auto auto;
+}
+.rmargin div{
+     border: 1px solid #845f4a;
+}
+
+.lmargin div{
+     border: 1px solid #845f4a;
+}
+
+.rmargin{
+    display: grid;
+    grid-template-rows: 150px auto auto;
+}
+
+
+
+
+
+
+
+
+
+
 .mainstuff{
     margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
     height: auto;
     display: grid;
-    grid-template-rows: 20px 650px 20px;
+    grid-template-rows: 20px 850px 20px;
     color: #90481B ;
 }
-
 
 
 #border {
@@ -95,6 +121,11 @@ padding: 15px;
         padding-top: 5px ;
         padding-bottom: 5px;
     }
+        .rose{
+            display: grid;
+            grid-template-columns: 91% 10%;
+        }
+
 
 
 
@@ -156,4 +187,9 @@ padding: 15px;
         color: #90481B;
         text-decoration: none;
         font-weight: 550;
+    }
+
+    #lowkeylink{
+        color: #90481B;
+        text-decoration: none;
     }
