@@ -63,12 +63,13 @@ body {
        
 .box{
     display: grid;
-    grid-template-columns: 100px 1000px 100px
+    grid-template-columns: 240px 1000px 240px
 }
 
 .lmargin{
     display: grid;
     grid-template-rows: 100px auto auto;
+    grid-template-columns: 135px 135px ;
 }
 .rmargin div{
      border: 1px solid #845f4a;
@@ -80,7 +81,8 @@ body {
 
 .rmargin{
     display: grid;
-    grid-template-rows: 150px auto auto;
+    grid-template-rows: 100px auto auto;
+    grid-template-columns: 135px 135px ;
 }
 
 
