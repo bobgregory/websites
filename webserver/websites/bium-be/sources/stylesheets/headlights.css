@@ -3,7 +3,7 @@ body{
 }
 .frozenuponentry {
   position: relative;
-  max-width: 1100px;
+  max-width: 71.5rem;
   aspect-ratio: 3 / 2;
   background: url(../../sources/images/headlights/frozenuponentry.jpg)center;
   background-size: contain;
@@ -27,8 +27,8 @@ body{
 
 #content{
   color: aqua;
-  padding-bottom: 30px;
-  padding-right:30px ;
+  padding-bottom: 1.95rem;
+  padding-right:1.95rem ;
 }
 
 
