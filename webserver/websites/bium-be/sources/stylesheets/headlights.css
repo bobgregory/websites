@@ -53,7 +53,6 @@ body{
 
 .deerone span#content {
     display:none;
-
 }
 
 .deerone input#show:checked ~ span#content {
