@@ -97,6 +97,12 @@ body  {
           padding-top: 0.325rem;
         }
 
+        #mh{
+          width: 5rem;
+          padding-left: 1.975rem;
+          padding-top: 0.325rem;
+        }
+
 
 
         @keyframes spin {

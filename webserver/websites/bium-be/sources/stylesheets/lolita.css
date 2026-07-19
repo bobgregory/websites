@@ -100,7 +100,6 @@ body {
     margin-right: 2.6rem;
     height: auto;
     display: grid;
-    grid-template-rows: 1.3rem 55.25rem 1.3rem;
     color: #90481B ;
 }
 
@@ -120,6 +119,7 @@ padding: 0.975rem;
     .basics{
         display: grid;
         border-top: #f0eddc 0.195rem dashed;
+        border-bottom: #f0eddc 0.195rem dashed;
         padding-top: 0.325rem ;
         padding-bottom: 0.325rem;
     }
@@ -127,6 +127,8 @@ padding: 0.975rem;
             display: grid;
             grid-template-columns: 91% 10%;
         }
+    
+
 
 
 
