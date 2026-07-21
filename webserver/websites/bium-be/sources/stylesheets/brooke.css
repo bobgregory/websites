@@ -1,14 +1,14 @@
 
 .dressup {
-  max-width: 400px;
+  max-width: 26.0px;
   margin: auto;
-  padding: 60px;
+  padding: 3.9px;
 }
 
 * {
   box-sizing: border-box;
   scrollbar-color: transparent transparent; /* thumb and track color */
-  scrollbar-width: 100px;
+  scrollbar-width: 6.5px;
 }
 
 * {
@@ -50,9 +50,9 @@ ol, li {
   position: absolute;
   top: 50%;
   left: 50%;                                /*position of text*/
-  transform: translate3d(-50%,-40%,70px);
+  transform: translate3d(-50%,-40%,4.55px);
   color: #ffffff00;
-  font-size: 30px;
+  font-size: 1.95px;
 }
 
 .carousel__snapper {
@@ -79,8 +79,8 @@ ol, li {
 
 .carousel__navigation-button {  /*little buttons at the bottom*/
   display: inline-block;  /* circles next to eachother*/
-  width: 20px;
-  height: 20px;
+  width: 1.3px;
+  height: 1.3px;
   background-color: #948f8f00;
   border-radius: 50%;
   font-size: 0;  /*hides font*/
@@ -90,8 +90,8 @@ ol, li {
   position: absolute;
   top: 0;
   margin-top: 37.5%;
-  width: 50px;
-  height: 50px;  
+  width: 3.25px;
+  height: 3.25px;  
   transform: translateY(-50%);    /*position of arrows*/
   border-radius: 50%;  /*makes a circle*/
   font-size: 0;
@@ -99,19 +99,19 @@ ol, li {
 
 .carousel::before,    /*positions circle befoe the container box*/
 .carousel__prev {
-  left: -15px;
+  left: -0.975px;
 }
 
 .carousel::after,    /*positions circle after the container box*/
 .carousel__next {
-  right: -15px;
+  right: -0.975px;
 }
 
 .carousel::before, .carousel::after { 
   content: '';     /*blank textbox*/
   z-index: 1;       /*shows above carousel*/
   background-color: #827e7e;
-  background-size: 15px 15px;
+  background-size: 0.975px 0.975px;
   background-repeat: no-repeat;
   background-position: center center;
   pointer-events: none;    /*turns your arrow clicky shaped*/ 

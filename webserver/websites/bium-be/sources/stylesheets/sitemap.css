@@ -1,58 +1,58 @@
 body  {
       background:url("../../sources/images/home/musicribbon2.psd.png"), url("../../sources/images/backgrounds/pinkbg.png");
         background-repeat: no-repeat, repeat;
-        background-size: 100px, auto;
+        background-size: 6.5rem, auto;
 
         display: grid;
         justify-items: center;
         font-family: "Byte";
-        font-size: 20px;
+        font-size: 1.3rem;
         margin: 0;
 }
 
 
 .container {
-    padding-top: 30px;
-    padding-left:  60px;
-    padding-right: 40px;
+    padding-top: 1.95rem;
+    padding-left:  3.9rem;
+    padding-right: 2.6rem;
 }
 
     .main{ 
         display: grid;
-        grid-template-columns: 500px 250px;
+        grid-template-columns: 32.5rem 16.25rem;
         background-color: #dfa0aa80;
-        padding: 10px;
+        padding: 0.65rem;
     }
 
         
         .txtbox {
             background-color: white; 
-            border-radius: 5px;
+            border-radius: 0.325rem;
         }
             .boxheader {
                 background: linear-gradient(to bottom, white 1%, #bc91c4 49%, #bc91c4 51%, white 100%);
-                border-bottom: 1px solid #845f4a;
-                padding: 2px;
+                border-bottom: 0.065rem solid #845f4a;
+                padding: 0.13rem;
                 text-align: center;
-                border-radius: 5px;
+                border-radius: 0.325rem;
                 
             }
            
             .txt{
-                padding: 6px;
-                font-size: 17px;
-                border: 1px solid #845f4a;
+                padding: 0.39rem;
+                font-size: 1.105rem;
+                border: 0.065rem solid #845f4a;
                 text-align: center;
-                border-radius: 4px;
+                border-radius: 0.26rem;
                 color: #845f4a;
             }
 
             #homebutton{
-                padding-top: 10px;
-                height: 95px;
+                padding-top: 0.65rem;
+                height: 6.175rem;
             }
             .homebutton{
-                font-size: 15px;
+                font-size: 0.975rem;
                 color: #845f4a;
             }
 
@@ -61,47 +61,47 @@ body  {
         
         .sitemap{
             background-color: white;
-            border: 1px solid #845f4a;
-            border-radius: 4px;
-            margin-right: 10px;
+            border: 0.065rem solid #845f4a;
+            border-radius: 0.26rem;
+            margin-right: 0.65rem;
             color: #845f4a;
-            padding-bottom: 20px;
+            padding-bottom: 1.3rem;
         }
             .smheader{
                 background: url("../../sources/images/backgrounds/tinydots.gif" );
-                border-bottom: 1px solid black;
-                padding: 2px;
-                padding-left: 8px;
-                padding-right: 8px;
+                border-bottom: 0.065rem solid black;
+                padding: 0.13rem;
+                padding-left: 0.52rem;
+                padding-right: 0.52rem;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                font-size: 22px;
+                font-size: 1.43rem;
             }
             a.base{
-                font-size: 22px;
+                font-size: 1.43rem;
                 color: #845f4a;;
             }
 
             .smsubheader{
                 background: url("../../sources/images/backgrounds/tinydots.gif" );
-                border: 1px dotted black;
-                padding: 4px;
-                margin: 5px;
-                font-size: 18px;
+                border: 0.065rem dotted black;
+                padding: 0.26rem;
+                margin: 0.325rem;
+                font-size: 1.17rem;
             }
             a.sub{
-                font-size: 18px;
+                font-size: 1.17rem;
                 color: #845f4a;
             }
 
 
             .list{
-            margin-right: 5px;
-            margin-left: 20px;
-            padding: 5px;
-            padding-left: 15px;
-            border-left: 1px dotted black;
+            margin-right: 0.325rem;
+            margin-left: 1.3rem;
+            padding: 0.325rem;
+            padding-left: 0.975rem;
+            border-left: 0.065rem dotted black;
             }
 
             

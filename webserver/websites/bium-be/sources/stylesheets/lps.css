@@ -16,8 +16,8 @@ header img{
 
 .bottom-left {
   position: absolute;
-  bottom: 8px;
-  left: 16px;
+  bottom: 0.52rem;
+  left: 1.04rem;
 }
 
 
@@ -25,13 +25,13 @@ header img{
 
 .whiteboard{
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 3.9rem;
+    padding-bottom: 3.9rem;
     background: url("../../sources/images/lps/lpstransparentwb.png") no-repeat;
     background-size: contain;
     margin: auto;
-    height: 441px;
-    width:  714px;
+    height: 28.665rem;
+    width:  46.41rem;
     }
 
 
@@ -39,7 +39,7 @@ header img{
     color: #f8759f;
     font-family: fantasy; /*i want to change this to the LPS font*/
     font-size: x-large;
-    padding-bottom: 30px;
+    padding-bottom: 1.95rem;
 }
 
 .wbtext{
