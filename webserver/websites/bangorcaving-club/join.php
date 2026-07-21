@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>
-        The Committee
+        Join Us
     </title>
     <link rel="icon" href="sources/icon256.png">
     <link rel="stylesheet" href="sources/stylesheets/main.css">
@@ -19,36 +19,30 @@
         <div>
             <h2>Socials</h2>
             <p1>
-                Come to a social, have a pint have a chat. Every* thursday at 8pm in the snug at <a href="https://maps.app.goo.gl/bYBH5qE11ajM8F3N7">The Harp Inn</a>
+                If you are interested in joining the club, or want to give caving a go come to a social, have a pint<small>(alcohol not required)</small> have a chat.<br>
+                 Every* thursday at 8pm in the snug at <a href="https://maps.app.goo.gl/bYBH5qE11ajM8F3N7">The Harp Inn</a>
                 <br>
                 <br>
-                * Socials occuring during university term time, occasionally on reading weeks and other holidays often not<br>
-                <br><br><br><br>
+                * <small>Socials occuring during university term time, occasionally on reading weeks and other holidays often not</small><br>
             </p1>
+        </div>
 
+        <div>
             <h2>Join the Whatsapp Group</h2>
             <p1>
-                We have a Whatsapp Group<br>
-                there will be a link in here eventually!<br>
-                <br><br><br><br>
+                The Whatsapp group is the main way we communicate with members, and is where you will find out about trips and socials.
+                <a href="https://chat.whatsapp.com/I81KRzpXyG6FQOOCMQyDni"><img src="sources/qrs/whatsapp.png"/></a>
             </p1>
+        </div>
 
+        <div>
             <h2>We have an instagram</h2>
             <p1>
                 go look at our instagram, it has things on it<br>
-                <br><br><br><br>
             </p1>
 
             
         </div> 
-        <div>
-            <h2>Still under construction</h2>
-            <p1>
-                This page will look nicer and have more things soon, I'm testing with this page content just so its not empty and its like 2am...
-            </p1>
-            <img src="sources/ConstructionStig.png" style="height:25rem">
-        </div>  
-
     </main>
 
     <?php include 'footer.php';?>
