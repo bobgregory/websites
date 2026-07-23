@@ -1,0 +1,10 @@
+main{
+    height: min-content;
+    margin-bottom: 300rem;
+}
+
+main div{
+    width: 100%;
+
+    aspect-ratio: unset;
+}

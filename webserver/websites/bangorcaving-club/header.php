@@ -23,7 +23,7 @@
             <div class="dropdown" id="resouces">
                 Resources
                 <div class="dropdown-content">
-                <a href="construction">Things!</a>
+                <a href="guide">Trip Guide</a>
                 <a href="construction">..I have yet</a> <!--idk other stuff-->
                 <a href="construction">to finish</a>
                 </div>

@@ -11,7 +11,7 @@
                 Hosting regular thursday socials at the Harp Inn in Bangor, day trips to local mines and caves, and Tree based rope training sessions."/>
     <meta property="og:title" content="Homepage"/>
     <meta property="og:url" content="https://bangorcaving.club"/>
-    <meta property="og:image" content="https://bangorcaving.club/sources/icon356.png"/>
+    <meta property="og:image" content="https://bangorcaving.club/sources/icon256.png"/>
 
     <link rel="stylesheet" href="sources/stylesheets/main.css">
     <link rel="stylesheet" href="sources/stylesheets/hgal.css">
@@ -35,7 +35,7 @@
                 the Peaks, Yorkshire dales, south Wales and occasionally more.<br><br>
                 Hosting regular thursday socials at the Harp Inn in Bangor, day trips to local mines and caves, and Tree based rope training sessions.
                 <br><br>
-                Details on joining can be found in the Join Us section,
+                Details on joining can be found in the <a href="join">Join Us</a> section,
                 <br><br>
                 Dig deep and stay dirty.
             </p1>
