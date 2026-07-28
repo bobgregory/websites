@@ -1,0 +1,239 @@
+
+*{ /* this gets rid of margin and padding applied by default*/
+    margin: 0;
+    padding:0;
+}
+
+body {
+    background-color: #f0eddc;
+    min-height: 100vh; /*MIN height, so that our box streches to the size of the screen 
+    but can also become longer if needed*/
+    display: grid;
+    grid-template-columns: 150px 1fr 190px;  /*set height for the sidebar section and then 1fr so
+    the rest is responsive to screen size*/
+    grid-template-rows: auto 1fr auto; /* same w this, the middle can grow*/
+    grid-template-areas: /*i havent used this in this way before, this seems much easier than 
+    trying to figure out what numbers to asign a div */
+    "navbar navbar navbar"
+    "main main rightside"
+    "footer footer footer";
+}
+
+nav{
+    background-color: #dfa0aa;
+    grid-area: navbar;  /*asign the div to one of the area names above*/
+    height: 9rem;
+    top:0;
+    position: sticky; /*makes her stay at the top*/
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    border-bottom: dashed #845f4a;
+}
+.katamari{
+    margin-right: auto;
+    color: #a8737c;
+    font-size: 1.3rem;
+}
+#katamari{
+    height: 7rem;
+    padding-top: 0.8rem ;
+    padding-left: 1rem;
+}
+#cow1833{
+    width:7.2rem;
+    padding-top: 0.7rem;
+    padding-right: 1rem;
+    }
+
+.rightside{
+    grid-area: rightside;
+    background-color: #e4e2d4;
+    border-left: dashed #845f4a;
+
+    display: grid;
+    grid-template-rows: 13rem 13rem 13rem 3rem;
+    justify-content: center;
+ }
+
+    #rsp1{
+        width:13rem;
+        padding-top: 1rem;
+
+    }
+    #rsp2{
+        width:11rem;
+        padding-left: 4rem;
+    }
+    #rsp3{
+        width:16rem;
+        padding-top: 1rem;
+    }
+
+
+
+
+
+
+    
+main{
+    grid-area: main;
+}
+
+
+.maincontainer{
+    display: grid;
+    grid-template-columns: 32rem 1fr;
+    grid-template-areas:
+    "welcometxt gridcontainer";
+    
+    }
+    .welcometxt{
+        height: calc(100vh - 9rem);
+        top: 9rem;
+        position: sticky;
+        grid-area: welcometxt;
+        border-right: dashed #845f4a;
+        padding: 1rem;
+        color: #845f4a;
+        display: grid;
+        grid-template-rows: 1fr auto;
+        text-align: center;
+
+    }
+        #tymiffy{
+            padding-top: 1rem;
+            width: 22rem;
+            padding-bottom: 2rem;
+        }
+        #monkeys{
+            height: 8.5rem;
+        }
+
+    .gridcontainer{
+        grid-area: gridcontainer;
+        display: flex;
+        justify-content: center; /*left right or center align*/ 
+        align-items: flex-start; /*up down or center align*/
+        /*space-between, space-around and space-evenly, aligns items with gaps
+        spacing them out diffrently*/
+        align-content: flex-start;
+        min-height: 40rem;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        flex-shrink: 1;
+        padding-top: 1.5rem;
+        padding-right: 0.7rem;
+        padding-left: 0.7rem;
+        margin-bottom: 15rem;
+    }
+            .box{
+                border: dashed 0.3rem #b9ac8c;
+                height: 37.5rem;
+                display: grid;
+                grid-template-rows: auto auto auto 1fr ;
+                grid-template-areas: 
+                "type"
+                "photo"
+                "name"
+                "talks";
+                text-align: center; 
+            }
+            #box {
+               width: 26rem;
+            }
+            #boxbig {
+                width: 30rem;
+            }
+            #biggestbox{
+                width: 35rem;
+            }
+
+
+                #type{
+                    grid-area: type;
+                    background-color: #b9ac8c;
+                    color: #f0eddc;
+                    font-weight: 600;
+                    padding: 0.3rem;
+                }
+                #photo {
+                    grid-area: photo;
+                    padding-top: 0.5rem;
+                    background-color: #e4e2d4;
+                }
+
+                .name{
+                    padding-top: 0.6rem;
+                    grid-area: name;
+                    margin-top: -0.4rem;
+                    color: #845f4a;
+                    font-weight: 900;
+                }
+
+                #talks{
+                    grid-area: talks;
+                    padding: 0.7rem;
+                    color: #845f4a;
+                }
+
+            #datebox{
+                width: 10rem;
+                border: dashed 0.3rem #dfa0aa;
+                height: 30rem;
+            }
+                #date{
+                    grid-area: type;
+                    background-color: #dfa0aa;
+                    color: #f0eddc;
+                    font-weight: 600;
+                    padding: 0.3rem;
+                }
+                #datetalks{
+                    grid-area: talks;
+                    padding: 2rem;
+                    color: #845f4a;
+                }
+                #textdecoration{
+                    grid-area: talks;
+                    padding-top: 1rem;
+                    color: #a8737c;
+
+                }
+
+
+
+    #b1photo{
+        height:17.5rem;
+    }
+    #b2photo{
+        height: 17.5rem
+    }
+
+
+
+footer{
+    background-color: #dfa0aa;
+    grid-area: footer;
+    padding: 1em;
+    border-top: dashed #845f4a;
+    color:#d2b0b5
+}
+
+
+a {
+  color: #845f4a;
+}
+b {
+    color: #845f4a;
+    font-weight: 600;
+}
+.name a{
+    color: #845f4a;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+#smallpixel {
+    height: 2rem;
+    margin-bottom: -5px;
+}
