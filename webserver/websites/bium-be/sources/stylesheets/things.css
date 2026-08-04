@@ -161,6 +161,13 @@ main{
                     padding-top: 0.5rem;
                     background-color: #e4e2d4;
                 }
+                        #b1photo{
+                            height:17.5rem;
+                        }
+                        #b2photo{
+                            height: 19.5rem
+                        }
+
 
                 .name{
                     padding-top: 0.6rem;
@@ -177,7 +184,7 @@ main{
                 }
 
             #datebox{
-                width: 10rem;
+                width: 11rem;
                 border: dashed 0.3rem #dfa0aa;
                 height: 30rem;
             }
@@ -202,12 +209,6 @@ main{
 
 
 
-    #b1photo{
-        height:17.5rem;
-    }
-    #b2photo{
-        height: 17.5rem
-    }
 
 
 
