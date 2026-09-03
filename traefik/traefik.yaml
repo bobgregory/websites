@@ -40,11 +40,15 @@ entryPoints:
 tls:
   options:
     default:
-        sniStrict: false
-    stores:
-      default:
-        defaultGeneratedCert: 
-          resolver: "le-web"
+      sniStrict: false
+      minVersion: VersionTLS12
+  stores:
+    default:
+      defaultGeneratedCert:
+        resolver: le-web
+        domain:
+          main: edge.jamesgregory.net
+
 
 certificatesResolvers:
   le-web:
