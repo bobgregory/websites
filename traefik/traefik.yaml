@@ -1,5 +1,5 @@
 log:
-  level: INFO
+  level: Debug
 
 experimental:
   plugins:
@@ -53,7 +53,7 @@ tls:
 certificatesResolvers:
   le-web:
     acme:
-      email: admin+le-web@jamesgregory.net
+      email: "admin+le-web@jamesgregory.net"
       storage: "/etc/traefik/acme/acme-80.json"
       tlsChallenge: {}
 
