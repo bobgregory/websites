@@ -11,7 +11,8 @@ http:
     panel:
       loadBalancer:
         servers:
-          - url: 'https://[fd00:2::fff3]:443'
+#          - url: 'https://[fd00:2::fff3]:443'
+          - url: 'http://pelican-panel:80'
     nginx:
       loadBalancer:
         servers:
