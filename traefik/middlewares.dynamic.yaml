@@ -1,0 +1,89 @@
+http:
+  middlewares:
+    error-pages:
+      errors:
+        status:
+          - 400-599
+        service: error-pages
+        query: '/{status}.html'
+
+    serverheader:
+      headers:
+        customresponseheaders:
+          Server: Swittnet
+          X-Powered-By: Magic
+          X-Served-By: switt.net
+
+    redirectscheme:
+      redirectScheme:
+        scheme: https
+        permanent: true
+
+    fail2ban:
+      plugin:
+        fail2ban:
+          allowlist:
+            ip:
+              - 127.0.0.1/32
+              - 192.168.20.0/24
+              - 192.168.5.0/24
+              - 192.168.100.0/24
+              - 172.16.16.0/24
+              - '2a12:bec0:214::/48'
+              - '2a12:bec0:211::/48'
+              - 82.215.64.66/32
+              - '2a12:bec0:212::/48'
+              - 82.215.64.78/32
+              - 172.23.11.0/30
+              - 192.168.8.2/32
+              - 82.215.64.77/32
+          denylist:
+            ip: 192.168.0.0/24
+          rules:
+            bantime: 5m
+            enableBlockLogs: true
+            enabled: true
+            findtime: '2m'
+            maxretry: '100'
+            statuscode: '400,401,403-499'
+
+    ratelimit:
+      rateLimit:
+        average: 500
+        period: 1s
+        burst: 1000
+        sourceCriterion:
+          ipStrategy:
+            excludedIPs:
+              - 127.0.0.1/32
+              - 192.168.20.0/24
+              - 192.168.5.0/24
+              - 192.168.100.0/24
+              - 172.16.16.0/24
+              - '2a12:bec0:214::/48'
+              - '2a12:bec0:211::/48'
+              - 82.215.64.66/32
+              - '2a12:bec0:212::/48'
+              - 82.215.64.78/32
+              - 172.23.11.0/30
+              - 192.168.8.2/32
+              - 172.19.0.0/16
+              - fd00:6::/64
+
+    bot-wrangler-traefik-plugin:
+      plugin:
+        bot-wrangler-traefik-plugin:
+          BotAction: BLOCK
+          LogLevel: ERROR
+          useFastMatch: 'true'
+
+    hsts:
+      headers:
+        frameDeny: true
+        browserXssFilter: true
+        stsSeconds: '15552000'
+        stsIncludeSubdomains: false
+        stsPreload: true
+        customresponseheaders:
+          X-Robots-Tag: 'noindex,nofollow'
+          X-Frame-Options: sameorigin

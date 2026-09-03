@@ -1,0 +1,64 @@
+http:
+  services:
+    error-pages:
+      loadBalancer:
+        servers:
+          - url: 'http://error-pages:8090'
+    cloud:
+      loadBalancer:
+        servers:
+          - url: 'http://seafile'
+    panel:
+      loadBalancer:
+        servers:
+          - url: 'https://[fd00:2::fff3]:443'
+    nginx:
+      loadBalancer:
+        servers:
+          - url: 'https://[fd00:2::ffff]:443'
+    biumbe-board:
+      loadBalancer:
+        servers:
+          - url: 'http://karakeep-web:3000'
+    photos:
+      loadBalancer:
+        servers:
+          - url: 'http://immich_server:2283'
+
+  routers:
+    cloud:
+      rule: Host(`cloud.jamesgregory.net`)
+      service: cloud
+      priority: 10
+
+    photos:
+      rule: Host(`photos.jamesgregory.net`)
+      service: photos
+
+    panel:
+      rule: Host(`panel.jamesgregory.net`)
+      service: panel
+
+    hugoswitt:
+      rule: Host(`hugoswitt.co.uk`) || Host(`www.hugoswitt.co.uk`)
+      service: nginx
+
+    swittnet:
+      rule: Host(`switt.net`) || Host(`www.switt.net`)
+      service: nginx
+
+    jamesgregory:
+      rule: Host(`jamesgregory.net`) || Host(`www.jamesgregory.net`)
+      service: nginx
+
+    biumbe:
+      rule: Host(`bium.be`) || Host(`www.bium.be`)
+      service: nginx
+
+    bangorcavingclub:
+      rule: Host(`bangorcaving.club`) || Host(`www.bangorcaving.club`)
+      service: nginx
+
+    biumbe-board:
+      rule: Host(`board.bium.be`)
+      service: biumbe-board
