@@ -35,7 +35,8 @@ entryPoints:
           - redirectscheme@file
           - serverheader@file
           - error-pages@file
-      tls: {}
+      tls: 
+        certResolver: le-web
 
 tls:
   options:
