@@ -55,7 +55,9 @@ certificatesResolvers:
     acme:
       email: "admin+le-web@jamesgregory.net"
       storage: "/etc/traefik/acme/acme-80.json"
-      tlsChallenge: {}
+#      tlsChallenge: {}
+      httpChallenge:
+        entryPoint: web
 
 providers:
   file:
