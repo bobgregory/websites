@@ -1,3 +1,14 @@
+tls:
+  options:
+    default:
+      sniStrict: true
+      minVersion: VersionTLS12
+  stores:
+    default:
+      defaultGeneratedCert:
+        resolver: le-web
+        domain:
+          main: edge.jamesgregory.net
 http:
   middlewares:
     error-pages:
