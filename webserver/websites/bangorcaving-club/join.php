@@ -23,8 +23,7 @@
                 Day trips and away trips are open to beginners!<br>
                 Sign up forms can be found in the places listed below.<br><br>
 
-                A guide to your first away trip<br>
-                A guide to your first day trip
+                <a href="./freshers">Some Useful resources for freshers</a>
             </p1>
         </div>
 

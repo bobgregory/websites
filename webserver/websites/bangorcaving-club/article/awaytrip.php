@@ -29,7 +29,7 @@
             You should <a href="../article/packing">pack your bags</a>
             <h2>Friday</h2>
             Meet in ASDA ~6PM<br>
-            Drive to the caving hut<br>
+            Drive to the caving hut (2.5hrs+)<br>
             Potential on route meal at a services<br>
             Arrive at the caving hut<br>
             Sign the Sign-in sheet (this is for fire and insurance reasons)<br>

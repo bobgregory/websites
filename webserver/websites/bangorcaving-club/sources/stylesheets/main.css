@@ -123,6 +123,11 @@ main {
     margin-bottom: 30vh;
 }
 
+main a {
+    color: #076678;
+    text-decoration: underline;
+}
+
 main div {
     width: clamp(20%, 100%, 50vh);   
     margin: auto 1rem auto 1rem;

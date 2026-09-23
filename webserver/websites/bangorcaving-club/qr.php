@@ -23,7 +23,7 @@
                 Use me to add Freshers to The whatsapp etc..
                 </p1>
             </div> 
-            <a href="./" class="qr">
+            <a class="qr">
                 <img src="sources/icon1024.png" class="qr-img">
                 
             </a>
@@ -34,10 +34,10 @@
                 <p1>
                 Easiest place to find sign up forms, information about socials, and any other club activities
                 <br>
-                <br> QR code is clickable!
+                <br>
                 </p1>
             </div> 
-            <a href="https://chat.whatsapp.com/I81KRzpXyG6FQOOCMQyDni" class="qr">
+            <a class="qr">
                 <img src="sources/qrs/whatsapp.png" class="qr-img">
                 <div class="insert-container">
                     <img src="sources/qrs/whatsappinsert.png" class="qr-insert">
@@ -50,10 +50,10 @@
                 <p1>
                 The second easiest place to find sign up forms, information about socials, and any other club activities
                 <br>
-                <br> QR code is clickable!
+                <br>
                 </p1>
             </div> 
-            <a href="https://www.instagram.com/bangorcaving" class="qr">
+            <a class="qr">
                 <img src="sources/qrs/instamain.png" class="qr-img">
                 <div class="insert-container">
                     <img src="sources/qrs/instainsert.png" class="qr-insert">
@@ -66,10 +66,10 @@
                 <p1>
                 All event dates will be in this calendar, you can add it to your calendar using this link!
                 <br>
-                <br> QR code is clickable!
+                <br>
                 </p1>
             </div> 
-            <a href="https://calendar.google.com/calendar/u/1?cid=YmFuZ29ydW5pY2F2aW5nQGdtYWlsLmNvbQ" class="qr">
+            <a class="qr">
                 <img src="sources/qrs/calendar.png" class="qr-img">
                 <div class="insert-container">
                     <img src="sources/qrs/calinsert.png" class="qr-insert">
