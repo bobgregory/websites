@@ -1,0 +1,72 @@
+log:
+  level: Info
+
+experimental:
+  plugins:
+    bot-wrangler-traefik-plugin:
+      moduleName: github.com/holysoles/bot-wrangler-traefik-plugin
+      version: v0.10.2
+    fail2ban:
+      moduleName: github.com/tomMoulard/fail2ban
+      version: v0.9.0
+
+entryPoints:
+  web:
+    address: ':80'
+    asDefault: true
+    http:
+      redirections:
+        entryPoint:
+          to: websecure
+
+  websecure:
+    address: ':443'
+    asDefault: true
+    transport:
+      respondingTimeouts:
+        readTimeout: 0
+        idleTimeout: 0
+    http:
+      middlewares:
+          - hsts@file
+          - ratelimit@file
+          - bot-wrangler-traefik-plugin@file
+          - fail2ban@file
+          - redirectscheme@file
+          - serverheader@file
+          - error-pages@file
+      tls: 
+        certResolver: le-web
+
+tls:
+  options:
+    default:
+      sniStrict: false
+      minVersion: VersionTLS12
+  stores:
+    default:
+      defaultGeneratedCert:
+        resolver: le-web
+        domain:
+          main: edge.jamesgregory.net
+
+
+certificatesResolvers:
+  le-web:
+    acme:
+      email: "admin+le-web@jamesgregory.net"
+      storage: "/etc/traefik/acme/acme.json"
+      tlsChallenge: {}
+      #httpChallenge:
+      #  entryPoint: web
+
+providers:
+  file:
+    directory: "/etc/traefik/dynamic"
+    watch: true
+
+api:
+  insecure: true
+
+serversTransport:
+  insecureSkipVerify: true
