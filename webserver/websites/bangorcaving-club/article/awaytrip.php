@@ -1,63 +1,65 @@
 <!DOCTYPE html>
 <head>
     <title>
-        Guides
+        Away Trip Itinerary
     </title>
-    <link rel="icon" href="sources/icon256.png">
-    <link rel="stylesheet" href="sources/stylesheets/main.css">
-    <link rel="stylesheet" href="sources/stylesheets/guide.css">
+    <link rel="icon" href="../sources/icon256.png">
+    <link rel="stylesheet" href="../sources/stylesheets/main.css">
+    <link rel="stylesheet" href="../sources/stylesheets/guide.css">
 
 
 </head>
 
 <body>
-    <?php include 'header.php';?>
+    <?php
+    $content = file_get_contents('../header.php');
+
+    // Inject directory offset by replacing the "/ in href tags
+    $content = str_replace('href="', 'href="../', $content);
+    $content = str_replace('src="', 'src="../', $content);
+    echo $content;
+    ?>
 
     <main>
         <div>
-            <h1>Day Trips</h1>
+            <h1>Away Trip Itinerary</h1>
+            <h2>Pre-trip</h2>
+            Once you Sign up to the trip you will be added to the Whatsapp chat for that trip.<br>
+            You can ask questions in here and sort out whose in which cars etc.<br>
+            You should <a href="../article/packing">pack your bags</a>
+            <h2>Friday</h2>
+            Meet in ASDA ~6PM<br>
+            Drive to the caving hut<br>
+            Potential on route meal at a services<br>
+            Arrive at the caving hut<br>
+            Sign the Sign-in sheet (this is for fire and insurance reasons)<br>
+            Claim a Bunk Space<br>
+            Evening chatter, social, and games<br>
+            Sleep<br>
+            <h2>Saturday</h2>
+            Rise and shine<br>
+            Breakfast <small>(you will help, either by cooking or cleaning)</small><br>
+            Get ready for caving<br>
+            Go to the cave <small>(car or walk)</small><br>
+            Cave!<br>
+            Return from the cave<br>
+            De-kit and clean gear<br>
+            Evening meal <small>(you will help, either by cooking or cleaning)</small><br>
+            Evening chatter, social, and games<br>
+            Sleep<br>
+            <h2>Sunday</h2>
+            Rise and shine<br>
+            Breakfast <small>(you will help, either by cooking or cleaning)</small><br>
+            Get ready for caving<br>
+            Go to the cave <small>(car or walk)</small><br>
+            Cave!<br>
+            Return from the cave<br>
+            De-kit and clean gear<br>
+            Tidy and clean the hut<br>
+            Pack up your kit and pack the cars<br>
+            Drive home<br>
 
-        </div>
-
-        <div>
             <h1>Away Trips<br></h1>
-                <h3>Packing</h3>
-                You will need to bring some things with you<br>
-                * indicates absolutely required to bring
-                <h4>Sleeping</h4>
-                    <ul>
-                        <li class="req">*A sleeping bag or some blankets</li>
-                        <li>A Pillow</li>
-                        <li>Pajamas</li>
-                        <li>Tent (only required if listed in signup form, such as at CHECC, ABC week, or other larger events)</li>
-                    </ul>
-                <h4>Caving</h4>
-                    <ul>
-                        <li class="req">*Wellies!</li>
-                        <li class="req">*Medical Devices/Drugs <small>(if you use something like an inhaler or need to take a tablet every X hours)</small></li>
-                        <li class="req">*Non Cotton cave clothes <small>(ideally warm clothes that fully cover your skin)</small></li>
-                        <li>Caving gear <small>(We can provide caving gear for those without)</small></li>
-                        <li>Snacks! <small>food you can put in pockets to take underground</small></li>
-                        <li>Water bottle <small>(Must withstand being bashed around)</small> </li>
-                        <li>Wetsuit <small>(Good for very wet trips(swimming))</small></li>
-                    </ul>
-                <h4>Toiletries</h4>
-                    <ul>
-                        <li class="req">*Towel</li>
-                        <li class="req">*Soap </li>
-                        <li class="req">*Toothbrush & toothpaste</li>
-                        <li>Flip flops / Crocs / other shoes to wear while showering and getting changed</li>
-                        <li>Deodorant</li>
-                    </ul>
-                <h4>Other</h4>
-                    <ul>
-                        <li class="req">*Hut Shoes <small>Shoes to wear around the hut</small></li>
-                        <li class="req">*Hut Clothes <small>(your cave clothes will probably be wet)</small></li>
-                        <li>Drinks <small>(Obviously only if you want to)</small></li>
-                        <li>Charger</li>
-                        <li>Wallet <small>(some huts are near pubs & shops)</small></li>
-                        <li>House keys <small>(don't get locked out your house...)</small></li>
-                    </ul>
                 <h2>Friday Evening</h2>
                 <h3>Getting there</h3>
                 Once you've signed up you'll be added to a WhatsApp group for the trip<br>
@@ -114,5 +116,5 @@
         </div>
     </main>
 
-    <?php include 'footer.php';?>
+    <?php include '../footer.php';?>
 </body>

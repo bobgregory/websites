@@ -23,9 +23,9 @@
             <div class="dropdown" id="resouces">
                 Resources
                 <div class="dropdown-content">
-                <a href="guide">Trip Guide</a>
-                <a href="construction">..I have yet</a> <!--idk other stuff-->
-                <a href="construction">to finish</a>
+                <a href="freshers">Freshers</a>  <!--Packing list etc-->
+                <a href="articles">Articles</a> <!--Articles!-->
+                <a href="construction">Welfare</a> <!--Welfare reporting-->
                 </div>
             </div>
 
