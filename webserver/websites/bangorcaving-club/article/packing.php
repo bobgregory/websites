@@ -5,8 +5,19 @@
     </title>
     <link rel="icon" href="../sources/icon256.png">
     <link rel="stylesheet" href="../sources/stylesheets/main.css">
-    <link rel="stylesheet" href="../sources/stylesheets/guide.css">
+    <link rel="stylesheet" href="../sources/stylesheets/article.css">
+    <link rel="stylesheet" href="../sources/stylesheets/resources.css">
 
+    <style>
+        #fresher {
+            background-color: #b57614;
+            color: #ebdbb2;
+        }
+
+        #fresher:hover {
+            background-color: #8f3f71;
+        }
+    </style>
 
 </head>
 

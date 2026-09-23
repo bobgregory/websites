@@ -1,10 +1,10 @@
 <div class="topbar">
-        <header>
+        <a href="./"><header>
                 <img src="sources/icon256.png">
                <h1>
                     Bangor<br>Student<br>Caving<br>Club
                 </h1>
-        </header>
+        </header></a>
 
         <nav>
             <a href="./" id="home">
@@ -20,12 +20,12 @@
                 </div>
             </div>
 
-            <div class="dropdown" id="resouces">
+            <div class="dropdown" id="resources">
                 Resources
                 <div class="dropdown-content">
-                <a href="freshers">Freshers</a>  <!--Packing list etc-->
-                <a href="articles">Articles</a> <!--Articles!-->
-                <a href="construction">Welfare</a> <!--Welfare reporting-->
+                <a href="freshers"     class="resources" id="fresher">Freshers</a>  <!--Packing list etc-->
+                <a href="articles"     class="resources" id="article">Articles</a> <!--Articles!-->
+                <a href="construction" class="resources" id="welfare">Welfare</a> <!--Welfare reporting-->
                 </div>
             </div>
 
