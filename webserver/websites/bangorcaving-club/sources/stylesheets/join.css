@@ -23,6 +23,9 @@
     display: inline-block; 
     position: relative;    
     width: 100%;
+
+
+    transition: transform .13s;
 }
 
 .back-image {
@@ -58,4 +61,8 @@
     margin-top: 30%;
     image-rendering: crisp-edges;
     border-radius: 1rem;
+}
+
+.qr:hover {
+    transform: scale(1.05);
 }
