@@ -1,8 +1,18 @@
 main a {
     color: #ebdbb2;
     width: 95%;   
-    margin: auto 1rem 1rem 1rem;
+    margin: 0rem 1rem 1rem 1rem;
+    padding: 0 0 1rem 0;
     height: max-content;
     max-height: 70vh;
     text-decoration: none;
+
+    border-bottom: 0.2rem #ebdbb2 solid ;
+    border-radius: 0.2rem;
+
+    transition: transform .13s;
+}
+
+main a:hover {
+    transform: scale(1.05);
 }
