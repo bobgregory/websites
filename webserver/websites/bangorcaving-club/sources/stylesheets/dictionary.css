@@ -1,0 +1,37 @@
+main{
+    padding-top: 1.5rem;
+}
+
+main div {
+    color: #ebdbb2;
+    width: 95%;   
+    margin: 0rem 1rem 1.8rem 1rem;
+    padding: 0 0 1rem 0;
+    text-decoration: none;
+    height: fit-content;
+    aspect-ratio: unset;
+    
+}
+
+main div span{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.15rem #ebdbb2 dashed ;
+    border-radius: 0.15rem;
+    width: 80%;
+}
+
+main div h1 {
+    margin-right: 2rem;
+    line-height: 0%;
+}
+
+main div h2{
+    font-size: 1.6rem;
+    padding-top: 0.4rem;
+    line-height: 0%;
+}
+
+main div h4 {
+    line-height: 0%;
+}
