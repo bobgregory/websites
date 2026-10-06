@@ -35,7 +35,7 @@
         <div>
             <h1>Packing for Away Trips</h1>
                 You will need to bring several things with you<br>
-                * indicates absolutely required to bring
+                <p1 class="req">* indicates absolutely required to bring</p1>
                 <h4>Sleeping</h4>
                     <ul>
                         <li class="req">*A sleeping bag or some blankets</li>
@@ -66,6 +66,7 @@
                     <ul>
                         <li class="req">*Hut Shoes <small>Shoes to wear around the hut</small></li>
                         <li class="req">*Hut Clothes <small>(your cave clothes will probably be wet)</small></li>
+                        <li class="req">*Bag for dry kit </li>
                         <li>Hut snacks</li>
                         <li>Alcohol <small>(Obviously only if you want to)</small></li>
                         <li>Chargers</li>
