@@ -8,3 +8,11 @@ main div{
 
     aspect-ratio: unset;
 }
+
+.req {
+    color: #cc241d;
+}
+
+.req small {
+    color: #ebdbb2;
+}
