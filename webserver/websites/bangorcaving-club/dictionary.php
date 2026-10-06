@@ -49,7 +49,9 @@
                 <li>To whack ones balls with while walking</li>
             </ol>
             <h4>synonyms</h4>
-                <a href="#rack">Rack</a>
+                <a href="#rack">Rack</a>,
+                Stop,
+                Simple
         </div>
 
         <div>
@@ -60,8 +62,8 @@
                 <li>Semi Generic term for rope blocking devices</li>
             </ol>
             <h4>synonyms</h4>
-                <a href="#ascender">Ascender</a>
-
+                <a href="#ascender">Ascender</a>, 
+                Hitch
         </div>
 
         <div>
