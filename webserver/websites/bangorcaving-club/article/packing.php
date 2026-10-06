@@ -49,6 +49,7 @@
                         <li class="req">*Medical Devices/Drugs <small>(if you use something like an inhaler or need to take a tablet every X hours)</small></li>
                         <li class="req">*Non Cotton cave clothes <small>(purpose made caving undersuits,</small></li>
                         <small>thermals, synthetic outdoors/workout clothes, and even onesies are appropriate)</small>
+                        <li class="req">*Wet kit bag <small>(Ikea bag/plastic shopping bag/drybag)</small></li>
                         <li>Caving gear <small>(We can provide caving gear for those without)</small></li>
                         <li>Snacks! <small>food you can put in pockets to take underground</small></li>
                         <li>Water bottle <small>(Must withstand being bashed around)</small> </li>
