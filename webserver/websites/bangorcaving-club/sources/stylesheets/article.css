@@ -5,8 +5,51 @@ main{
 
 main div{
     width: 100%;
-
     aspect-ratio: unset;
+}
+
+main div h1,h2,h3,h4{
+        margin: 1.8rem 0 1rem 0;
+}
+
+aside img{
+    float: right;
+    width: 20rem;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.author {
+    line-height: 1.2rem;
+    padding: 0;
+    margin: 0;
+    width: min-content;
+    white-space: nowrap;
+}
+
+main div .author h4{
+    line-height: 0;
+    margin: 2rem 0 1.4rem 0;
+}
+
+div .dashed{
+    border-bottom: 0.15rem #ebdbb2 dashed;
+    border-radius: 0.15rem;
+    padding: 1rem 0 0 0 ;
+    margin: 0;
+    width: 100%;
+}
+
+div .solid{
+    border-bottom: 0.15rem #ebdbb2 solid;
+    border-radius: 0.15rem;
+    padding: 1rem 0 0 0 ;
+    margin: 0;
+    width: 100%;
 }
 
 .req {

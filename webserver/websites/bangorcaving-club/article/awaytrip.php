@@ -6,7 +6,7 @@
     <link rel="icon" href="../sources/icon256.png">
     <link rel="stylesheet" href="../sources/stylesheets/main.css">
     <link rel="stylesheet" href="../sources/stylesheets/article.css">
-    <link rel="stylesheet" href="../sources/stylesheets/resources.css">
+    <link rel="stylesheet" href="../sources/stylesheets/topselec/resources.css">
 
     <style>
         #fresher{

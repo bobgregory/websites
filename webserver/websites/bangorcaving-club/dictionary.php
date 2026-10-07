@@ -6,17 +6,8 @@
     <link rel="icon" href="sources/icon256.png">
     <link rel="stylesheet" href="sources/stylesheets/main.css">
     <link rel="stylesheet" href="sources/stylesheets/dictionary.css">
-    <link rel="stylesheet" href="sources/stylesheets/resources.css">
-    <style>
-        #fresher{
-            background-color: #b57614;
-            color: #ebdbb2;
-        }
-
-        #fresher:hover {
-            background-color: #8f3f71;
-        }
-    </style>
+    <link rel="stylesheet" href="sources/stylesheets/topselec/resources.css">
+    <link rel="stylesheet" href="sources/stylesheets/topselec/fresher.css">
 
 </head>
 

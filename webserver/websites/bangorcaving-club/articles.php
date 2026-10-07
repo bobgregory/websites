@@ -6,7 +6,8 @@
     <link rel="icon" href="sources/icon256.png">
     <link rel="stylesheet" href="sources/stylesheets/main.css">
     <link rel="stylesheet" href="sources/stylesheets/articlenav.css">
-    <link rel="stylesheet" href="sources/stylesheets/resources.css">
+    <link rel="stylesheet" href="sources/stylesheets/topselec/resources.css">
+    <link rel="stylesheet" href="sources/stylesheets/topselec/articles.css">
 
 </head>
 

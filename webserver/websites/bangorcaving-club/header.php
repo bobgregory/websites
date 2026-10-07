@@ -15,8 +15,8 @@
                 The Club
                 <div class="dropdown-content">
                 <a href="committee"    class="club" id="committee">Committee</a>
-                <a href="construction" class="club"               >More to</a>  <!--gallery-->
-                <a href="construction" class="club"               >come soon</a> <!--history-->
+                <a href="trips"        class="club" id="trips"    >Trips</a>  <!--Trip reports-->
+                <a href="construction" class="club"               >soon..</a> <!--history, Gallery etc-->
                 </div>
             </div>
 
