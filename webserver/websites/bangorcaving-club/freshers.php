@@ -18,17 +18,30 @@
     <?php include 'header.php';?>
 
     <main>
-        <a href="./article/packing">
-            <h1>Packing List</h1>
+        <a href="./article/awaypacking">
+            <h1>Weekend Packing List</h1>
             <p1>
                 A list of things to bring with you on away trips
             </p1>
         </a>
 
         <a href="./article/awaytrip">
-            <h1>Away Trip itinerary</h1>
+            <h1>Weekend Away Trip itinerary</h1>
             <p1>
-                What happens when
+                What happens when on a weekend away trip
+            </p1>
+        </a>
+
+        <a href="./article/daypacking">
+            <h1>Day Packing List</h1>
+            <p1>
+                A list of things to bring with you on day trips
+            </p1>
+        </a>
+        <a href="./article/daytrip">
+            <h1>Day Trip itinerary</h1>
+            <p1>
+                What happens when on a day trip
             </p1>
         </a>
     </main>
