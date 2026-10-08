@@ -32,7 +32,7 @@
         in prism launcher, create instance, import(left panel) then find the TSG 26.2.zip file
 
 
-        <a href="noprism"><h2>I dont want prism launcher</h2></a>
+        <a href="./noprism"><h2>I dont want prism launcher</h2></a>
         <br><br>
 
 
